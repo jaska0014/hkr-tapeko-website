@@ -1,12 +1,22 @@
 USE `hkr-tapeko`;
 
-
 DROP TABLE IF EXISTS `products`;
-CREATE TABLE `products` (
-  `id` int(11) KEY NOT NULL AUTO_INCREMENT,
-  `title` varchar(50) NOT NULL,
-  `category` varchar(20) NOT NULL DEFAULT 'no category',
-  `description` varchar(200) DEFAULT NULL,
-  `date` datetime NOT NULL,
-  `image` varchar(100) NOT NULL DEFAULT 'default.jpg'
+CREATE TABLE `products` 
+( 
+    `product_id` BIGINT NOT NULL AUTO_INCREMENT , 
+    `product_name` VARCHAR(50) NOT NULL , 
+    `product_type` VARCHAR(50) NOT NULL , 
+    `product_desc` VARCHAR(1000) NOT NULL , 
+    `product_designer` VARCHAR(50) NOT NULL , 
+    `product_price` DECIMAL(18,2) NOT NULL , 
+    `product_year` INT NOT NULL , 
+    `product_seller` VARCHAR(50) NOT NULL , 
+    `date_added` INT NOT NULL ,
+    PRIMARY KEY (`product_id`)
+  )
+
+DROP TABLE IF EXISTS `product_images`; 
+CREATE TABLE `product_images` (
+  `product_id` BIGINT NOT NULL,
+  `image_url` varchar(500) NOT NULL DEFAULT 'default.jpg'
 )
