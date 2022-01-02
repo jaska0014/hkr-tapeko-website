@@ -7,7 +7,7 @@
 <html lang="sv">
 <head>
   <meta charset="utf-8">
-  <title>DIY COMMUNITY</title>
+  <title>TAPEKO</title>
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/all.min.css">
@@ -43,20 +43,10 @@
       <nav class="navbar fixed-top navbar-light bg-light">
       <div class= nav navbar-left>
 			<a class="navbar-brand ml-5" href="index.php">
-          <img src="assets/images/logo.png" height="100" alt="DIY logo">
+          <img src="assets/images/tapeko.png" height="40" alt="Tapeko logo">
         </a>
-			<li class="nav-item mt-4">
-        <a class="nav-link" href="#popup1">DIY's</a>
-      </li>
-      <li class="nav-item mt-4">
-        <a class="nav-link" href="events.php">Events</a>
-      </li>
-				</div>
-				<div class="nav navbar-right mr-5">
-				<button type="button" class="btn btn-primary btn-sm mr-3"data-toggle="modal" data-target="#signupModal"type="submit"><i class="far fa-heart mr-1"></i>JOIN US</button>
-				<button type="button" class="btn btn-primary btn-sm mr-3" data-toggle="modal" data-target="#loginModal"type="submit "><i class="fas fa-sign-in-alt mr-1"></i>LOGIN</button>
-				<a href="#popup1" class="btn btn-primary btn-sm mr-3"type="submit"><i class="fas fa-search mr-1"></i>SEARCH</a>
-         <a href="add.php" type="submit" class="btn btn-primary btn-sm mr-3"> <i class="fa fa-plus mr-1"></i>CREATE </a>
+	    </div>
+
       </nav>		
     </div>	      
 <header class="carousel-header">
