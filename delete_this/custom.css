@@ -1,3 +1,68 @@
+/* ------------------------------NAV----------------------------------------*/
+nav {
+    background-color: #F5F2F0;
+}
+
+.smulor {
+    background-color: #000000;
+}
+
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span{
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #000000;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+
+}
+
+.middle-bar{
+    margin-top: 0px;
+}
+
+/* when navigation is clicked */
+.navbar-toggler .top-bar{
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha (opacity=0);
+}
+
+.navbar-toggler .bottom-bar{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
 /* ------------------------------BREADCRUMBS----------------------------------------*/
 
 ul.breadcrumb {
@@ -179,9 +244,10 @@ div.my-card-scrollable .card {
 /* ------------------------------OTHER----------------------------------------*/
 
 body {
+    font-family: 'Montserrat';font-size: 22px;
     text-align: center;
-    background-color: #EAEAE9;
-    color: #36180B;
+    background-color: #ffffff;
+    color: #111111;
   }
   
   .btn {
@@ -198,32 +264,7 @@ body {
    text-decoration: none;
 }
 
-/* ------------------------------CAROUSEL----------------------------------------*/
-.carousel-item {
-  height: 531px;
-}
-  .carousel-header{
-    height: 531px;
-    width: 100%;
-    margin-bottom: 20px;
-    padding-bottom: 100px;
-    padding-top: 80px;
-  }
-.card-text-carousel{
-    width: 100%;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    font-size: 36px; 
-    text-align: center;
-    text-decoration: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.75);
-    background-color: rgba(255, 255, 255, 0.75);
-    background-size: 300px 100px;
-}
+
 .description{
 font-family: 'Noto Serif', serif;
   font-size: 22px;
