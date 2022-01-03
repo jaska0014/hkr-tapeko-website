@@ -4,8 +4,7 @@
   <meta charset="utf-8">
   <title>TAPEKO</title>
 
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">  <link rel="stylesheet" href="assets/css/bootstrap.min.css">  <link rel="stylesheet" href="assets/css/all.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +22,7 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">BEGAGNADE MÖBLER</a>
+                        <a class="nav-link active" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">VÅRA TJÄNSTER</a>
