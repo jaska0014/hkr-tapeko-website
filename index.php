@@ -12,14 +12,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-light ">
-    <header class="container pt-8 pb-0 mb-8"> 
-        <div class= nav navbar-left>
-              <a class="navbar-brand me-5" href="index.html">
-            <img src="assets/images/tapeko.png" height="40" alt="TAPEKO logo">
-          </a>
-                  </div>
-                  <button class="navbar-toggler d-flex flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container fluid"> 
+            <a class="navbar-brand" href="index.html"><img src="assets/images/tapeko.png" height="40" alt="TAPEKO logo"></a>
+                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon top-bar"></span>
                     <span class="toggler-icon middle-bar"></span>
                     <span class="toggler-icon bottom-bar"></span>
@@ -48,14 +44,14 @@
             <input class="form-control me-2" type="search" placeholder="Search"  aria-label="Search" >
           </form> -->
 
-        </nav>		
+        <!-- </nav>		
       </div>	
       <nav class="smulor"aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item active ms-5" aria-current="page">Home</li>
           <button class="nav navbar-right ms-5 btn btn-link text-white text-decoration-none" type="submit"><i class="fas fa-search mr-1"></i></button>
         </ol>
-      </nav>
+      </nav> -->
 
       
 	</body>

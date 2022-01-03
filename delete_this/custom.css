@@ -1,5 +1,5 @@
 /* ------------------------------NAV----------------------------------------*/
-nav {
+/* nav {
     background-color: #F5F2F0;
 }
 
@@ -61,11 +61,11 @@ nav {
 .navbar-toggler .bottom-bar{
     margin-top: 0px;
     transform: rotate(-135deg);
-}
+} */
 
 /* ------------------------------BREADCRUMBS----------------------------------------*/
 
-ul.breadcrumb {
+/* ul.breadcrumb {
   padding: 20px 26px;
   list-style: none;
   background: #F9F9F9;
@@ -81,10 +81,10 @@ ul.breadcrumb li+li:before {
   padding: 10px;
   color: #36180B;
   content: "/\00a0";
-}
+} */
 
 /* ------------------------------POP UP CONSTRUCTION----------------------------------------*/
-
+/* 
 .button {
   font-size: 1em;
   padding: 10px;
@@ -159,13 +159,13 @@ ul.breadcrumb li+li:before {
   .popup{
     width: 70%;
   }
-}
+} */
 /* ------------------------------EFFECTS FOR CARDS ----------------------------------------*/
 
-div.my-card-scrollable {
+/* div.my-card-scrollable {
   overflow-x: scroll;
   /* Linnea tog bort vertical scroll*/ 
-  overflow-y: hidden;
+  /* overflow-y: hidden;
   flex-direction: row;
   justify-content: start;
   display: flex;
@@ -201,11 +201,11 @@ div.my-card-scrollable .card {
 .card-event a.delete {
   top: 5px;
   right:5px;
-}
+} */ */
 
 /* ------------------------------TEXT FOR CARDS ----------------------------------------*/
 
-
+/* 
  .card-text{
     width: 100%;
     padding-bottom: 10px;
@@ -238,12 +238,12 @@ div.my-card-scrollable .card {
     background-color: rgba(255, 255, 255, 0.75);
     background-color: rgba(255, 255, 255, 0.75);
     background-size: 300px 100px;
-  }
+  } */
 
 
 /* ------------------------------OTHER----------------------------------------*/
 
-body {
+/* body {
     font-family: 'Montserrat';font-size: 22px;
     text-align: center;
     background-color: #ffffff;
@@ -451,4 +451,4 @@ font-family: 'Noto Serif', serif;
 
 .thisisme {
   border-radius: 50%;
-} 
+}  */
