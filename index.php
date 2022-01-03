@@ -25,7 +25,7 @@
                         <a class="nav-link active" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">VÅRA TJÄNSTER</a>
+                        <a class="nav-link active" href="#">VÅRA TJÄNSTER</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">MÖBELTAPETSERARE</a>
