@@ -23,35 +23,20 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">BEGAGNADE MÖBLER</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">VÅRA TJÄNSTER</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">MÖBELTAPETSERARE</a>
                       </li>
                     </ul>
-                  </div>
-                  <!-- <div class="nav navbar-right ms-5">
-                  <button type="button" class="btn btn-link text-dark text-decoration-none"data-toggle="modal" data-target="#signupModal"type="submit">JOIN US</button>
-                  <button type="button" class="btn btn-link text-dark text-decoration-none" data-toggle="modal" data-target="#loginModal"type="submit ">LOGIN</button>
-           <a href="add.php" type="submit" class="btn btn-link text-dark text-decoration-none">CREATE </a>
-           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search"  aria-label="Search" >
-          </form> -->
+                </div>
+            </div>
+        </nav>	
 
-        <!-- </nav>		
-      </div>	
-      <nav class="smulor"aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item active ms-5" aria-current="page">Home</li>
-          <button class="nav navbar-right ms-5 btn btn-link text-white text-decoration-none" type="submit"><i class="fas fa-search mr-1"></i></button>
-        </ol>
-      </nav> -->
+
 
       
 	</body>
