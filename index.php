@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
   <meta charset="utf-8">
   <title>TAPEKO</title>
 
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">  <link rel="stylesheet" href="assets/css/bootstrap.min.css">  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">  
+  <link rel="stylesheet" href="assets/css/all.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container fluid"> 
             <a class="navbar-brand" href="index.html"><img src="assets/images/tapeko.png" height="40" alt="TAPEKO logo"></a>
@@ -34,10 +38,9 @@
                 </div>
             </div>
         </nav>	
-
-
-
       
-	</body>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
 
 
