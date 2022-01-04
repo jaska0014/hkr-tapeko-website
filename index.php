@@ -38,6 +38,15 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Beh;ver struktureras -->
+        <nav class="navbar d-flex pt-2" style="background-color: black">
+          <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item active" aria-current="page">Hem</li> </ol></a> </div>
+          <div class="d-flex flex-row-reverse bd-highlight">
+          <div class="p-2 bd-highlight text-light">Admin</div>
+          <div class="p-2 bd-highlight text-light">Shop</div>
+        </div>
+        </nav>
         
 <div class="container my-5">
     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
