@@ -10,8 +10,7 @@ CREATE TABLE `products`
     `product_designer` VARCHAR(50) NOT NULL , 
     `product_price` DECIMAL(18,2) NOT NULL , 
     `product_year` INT NOT NULL , 
-    `product_seller` VARCHAR(50) NOT NULL , 
-    `date_added` INT NOT NULL ,
+    `product_location` VARCHAR(50) NOT NULL , 
     PRIMARY KEY (`product_id`)
   )
 
