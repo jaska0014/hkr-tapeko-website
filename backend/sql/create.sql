@@ -18,5 +18,5 @@ DROP TABLE IF EXISTS `product_images`;
 CREATE TABLE `product_images` 
 (
   `product_id` BIGINT NOT NULL,
-  `image_url` varchar(500) NOT NULL DEFAULT 'default.jpg'
+  `image_url` varchar(500) NOT NULL DEFAULT 'images/default/default.jpg'
 );
