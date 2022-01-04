@@ -1,4 +1,3 @@
-
 .smulor {
     background-color: #000000;
 }
@@ -14,9 +13,13 @@
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
+
     outline: none;
     box-shadow: none;
-    border: 0 */ */navbar-toggler span{
+    border: 0;
+}
+
+.navbar-toggler span{
     margin: 0;
     padding: 0;
 }
@@ -24,9 +27,9 @@
 .toggler-icon{
     display: block;
     position: absolute;
-    height: 2px;
+    height: 3px;
     width: 100%;
-    background: #111111;
+    background: #000000;
     border-radius: 1px;
     opacity: 1;
     left: 0;
@@ -36,8 +39,10 @@
 }
 
 .middle-bar{
-    margin-top: 0px */ */* when navigation is clicked */
+    margin-top: 0px;
+}
 
+/* when navigation is clicked */
 .navbar-toggler .top-bar{
     margin-top: 0px;
     transform: rotate(135deg);
@@ -50,9 +55,12 @@
 
 .navbar-toggler .bottom-bar{
     margin-top: 0px;
-    transform: rotate(-135deg) */ */* state when the navbar is collapsed */
+    transform: rotate(-135deg);
+}
 
 
+
+/* when navigation is collapsed */
 .navbar-toggler.collapsed .top-bar {
     margin-top: -20px;
     transform: rotate(0deg);
@@ -65,4 +73,5 @@
 
 .navbar-toggler.collapsed .bottom-bar {
     margin-top: 20px;
-    transform: rotate(0deg) */
+    transform: rotate(0deg) 
+}
