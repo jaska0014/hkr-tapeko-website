@@ -50,7 +50,7 @@
         </div>
       </div>
       <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" src="assets/images/cover1.jpeg" alt="" width="720">
+          <img class="rounded-lg-3" src="assets/images/cover.jpeg" alt="" width="720">
       </div>
     </div>
   </div>
