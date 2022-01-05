@@ -40,13 +40,14 @@
         </nav>	
 
         <!-- Beh;ver struktureras -->
-        <nav class="navbar d-flex pt-2" style="background-color: black">
-          <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="https://port-3000-hkr-tapeko-jskarpfors857062.preview.codeanywhere.com/hkr-tapeko-website/index.php">Hem</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Produkter</li> </ol></a> </div>
-    <div class="d-flex flex-row-reverse bd-highlight">
-          <div class="p-2 bd-highlight text-light">Admin</div>
-          <div class="p-2 bd-highlight text-light">Shop</div>
-        </nav>
+    <nav class="navbar d-flex pt-2" style="background-color: black">
+        <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Produkter</li> </ol></a> </div>
+                <div class="d-flex flex-row-reverse bd-highlight">
+            <div class="p-2 bd-highlight text-light "> <a href="#!" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+          <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
+        </div>
+    </nav>
 
 <div class="container fluid"> 
 <div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
@@ -96,7 +97,7 @@
   <script src="assets/js/bootstrap.bundle.min.js"></script>
 
   <!-- Footer -->
-<footer class=" text-start" style="background-color:#ededed;">
+<footer class=" text-start bg-light">
   <!-- Grid container -->
   <div class="container mt-5 pt-5 pb-5">
 

@@ -40,34 +40,44 @@
 
         <!-- Beh;ver struktureras -->
         <nav class="navbar d-flex pt-2" style="background-color: black">
-          <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="https://port-3000-hkr-tapeko-jskarpfors857062.preview.codeanywhere.com/hkr-tapeko-website/index.php">Hem</a></li>
-    <li class="breadcrumb-item"><a href="https://port-3000-hkr-tapeko-jskarpfors857062.preview.codeanywhere.com/hkr-tapeko-website/products.php">Produkter</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Produktdetaljer</li> </ol></a> </div>
+          <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
+    <li class="breadcrumb-item"><a href="products.php" class="text-decoration-none">Produkter</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Detaljer</li> </ol></a> </div>
     <div class="d-flex flex-row-reverse bd-highlight">
-          <div class="p-2 bd-highlight text-light">Admin</div>
-          <div class="p-2 bd-highlight text-light">Shop</div>
+          <div class="p-2 bd-highlight text-light "> <a href="#!" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+          <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
+        </div>
         </nav>
       
   <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-  <div class="container my-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 class="display-4 fw-bold lh-1">Welcome to TAPEKO</h1>
-        <p class="lead">Be a part of the change from careless consumption, to better use. We’ll help you reduce your environmental footprint by reusing pre-loved design furniture. We call it Tapeko.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button> -->
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Start shopping</button>
-        </div>
+  <div class="container-fluid my-5 bg-light">
+    <div class="row">
+      <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
+      <h5 class="p-1">FÅTÖLJ</h5>
+        <h1 class="display-4 fw-bold lh-1">FÅTÖLJ,<br> 2 ST, INGRID</h1>
+        <p class="lead">Söker tapetserare till dessa två identiska fåtöljer</p>
+        <hr class="divider">
+        <p class="lead">Designer: Bruno mathsson</p>
+        <hr class="divider">
+        <p class="lead">Årsmodell: 1960</p>
+        <hr class="divider">
+        <p class="lead">Budget: 10.000 kr</p>
+        <hr class="divider">
+        <p class="lead">Upholsterer: PTV, Göteborg</p>
+        <hr class="divider">
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">KÖP NU</button>
       </div>
-      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" src="assets/images/cover.jpeg" alt="" width="720">
+      <div class="col-lg-7 offset-lg-1 p-0 overflow-hidden bg-light">
+          <img class="rounded-lg-3" src="assets/images/armchair.jpg" alt="armchair" width="900">
       </div>
     </div>
   </div>
 
+  
+
 <!-- Footer -->
-<footer class=" text-start" style="background-color:#ededed;">
+<footer class=" text-start bg-light">
   <!-- Grid container -->
   <div class="container mt-5 pt-5 pb-5">
 

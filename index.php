@@ -41,10 +41,10 @@
 
         <!-- Beh;ver struktureras -->
         <nav class="navbar d-flex pt-2" style="background-color: black">
-          <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item active" aria-current="page">Hem</li> </ol></a> </div>
+          <div class="d-flex flex-row bd-highlight"   <a class="text-start text-decoration-none" <ol class="breadcrumb"> <li class="breadcrumb-item active" aria-current="page">Hem</li> </ol></a> </div>
           <div class="d-flex flex-row-reverse bd-highlight">
-          <div class="p-2 bd-highlight text-light">Admin</div>
-          <div class="p-2 bd-highlight text-light">Shop</div>
+          <div class="p-2 bd-highlight text-light"> <a href="#!" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+          <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
         </div>
         </nav>
         
@@ -69,7 +69,7 @@
 
 
 <!-- Footer -->
-<footer class=" text-start" style="background-color:#ededed;">
+<footer class=" text-start bg-light">
   <!-- Grid container -->
   <div class="container mt-5 pt-5 pb-5">
 
@@ -122,10 +122,10 @@
               <a href="#!" class="text-dark text-decoration-none">Följ oss på sociala medier</a>
             </li>
           <hr class="divider">
-          <i class="fab fa-twitter fa-2x"></i>
-          <i class="fab fa-instagram fa-2x"></i>
-          <i class="fab fa-facebook fa-2x"></i>
-        
+          <ul class="list-group list-unstyled list-group-horizontal mb-1">
+          <li><i class="fab fa-twitter fa-2x"></i></li>
+          <li><i class="fab fa-instagram fa-2x"></i></li>
+          <li><i class="fab fa-facebook fa-2x"></i></li>
           </ul>
         </div>
         <!--Grid column-->
