@@ -68,8 +68,8 @@
         <hr class="divider">
         <button type="button" class="btn btn-outline-secondary btn-lg px-4">KÖP NU</button>
       </div>
-      <div class="col-lg-7 offset-lg-1 p-0 overflow-hidden bg-light">
-          <img class="rounded-lg-3" src="assets/images/armchair.jpg" alt="armchair" width="900">
+      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
+          <img class="rounded-lg-3" src="assets/images/armchair.jpg" alt="armchair">
       </div>
     </div>
   </div>

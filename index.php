@@ -55,7 +55,7 @@
         <p class="lead">Be a part of the change from careless consumption, to better use. We’ll help you reduce your environmental footprint by reusing pre-loved design furniture. We call it Tapeko.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
           <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button> -->
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Start shopping</button>
+          <a href="products.php" class="btn btn-outline-secondary btn-lg px-4">Start shopping</a>
         </div>
       </div>
       <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
