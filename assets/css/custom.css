@@ -2,6 +2,12 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.breadcrumb{
+    height: 40px;
+    background-color: black;
+    
+}
+
 .navbar-toggler {
     width: 20px;
     height: 20px;

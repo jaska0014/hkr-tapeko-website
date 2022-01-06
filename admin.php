@@ -42,7 +42,7 @@
         <!-- Beh;ver struktureras -->
     <nav class="navbar d-flex pt-2" style="background-color: black">
     <div class="container fluid"> 
-        <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
+        <div class="d-flex flex-row bd-highlight">   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
             <li class="breadcrumb-item active" aria-current="page">Admin</li> </ol></a> </div>
                 <div class="d-flex flex-row-reverse bd-highlight">
             <div class="p-2 bd-highlight text-light "> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
@@ -81,8 +81,8 @@
       <div class="card-body">
         <h5 class="card-title">Svenson Svenson soffa</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="edit.php" class="btn btn-outline-secondary">Edit</a>
-        <a href="delete.php" class="btn btn-primary ml-2">Delete</a>
+        <a href="product-detail.php" class="btn btn-outline-secondary">Edit</a>
+        <a href="product-detail.php" class="btn btn-primary ml-2">Delete</a>
       </div>
     </div>
   </div>
