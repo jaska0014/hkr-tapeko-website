@@ -70,8 +70,8 @@
       <div class="card-body">
         <h5 class="card-title">Pernilla med fotpall</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="edit.php" class="btn btn-outline-secondary">Edit</a>
-        <a href="delete.php" class="btn btn-primary ml-2">Delete</a>
+        <a href="edit.php" class="btn btn-outline-secondary">Redigera</a>
+        <a href="delete.php" class="btn btn-primary ml-2">Ta bort</a>
       </div>
     </div>
   </div>
@@ -81,8 +81,8 @@
       <div class="card-body">
         <h5 class="card-title">Svenson Svenson soffa</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="product-detail.php" class="btn btn-outline-secondary">Edit</a>
-        <a href="product-detail.php" class="btn btn-primary ml-2">Delete</a>
+        <a href="product-detail.php" class="btn btn-outline-secondary">Redigera</a>
+        <a href="product-detail.php" class="btn btn-primary ml-2">Ta bort</a>
       </div>
     </div>
   </div>

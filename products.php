@@ -93,15 +93,22 @@
       </div>
     </div>
   </div>
-
-
-
-
-
-
 </div>
 </div>
-      
+
+
+ <div class="container-fluid my-5 bg-light">
+    <div class="row">
+      <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
+        <h1 class="display-4 fw-bold lh-1">REUSE<br> REDUCE</h1>
+        <p class="lead">Var en del av förändringen från enormt slöseri, till bättre användning. Vi hjälper dig förminska ditt miljöavtryck genom att återanvända förägda design möbler. Vi kallar det Tapeko</p>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">CTA</button>
+      </div>
+      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
+          <img class="rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
+      </div>
+    </div>
+  </div>     
 
 
   <!-- Footer -->

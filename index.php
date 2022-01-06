@@ -50,20 +50,20 @@
         </div>
         </nav>
         
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 class="display-4 fw-bold lh-1">Welcome to TAPEKO</h1>
-        <p class="lead">Be a part of the change from careless consumption, to better use. We’ll help you reduce your environmental footprint by reusing pre-loved design furniture. We call it Tapeko.</p>
+    <div class="container-fluid bg-light">
+    <div class="row">
+      <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
+        <h1 class="display-4 fw-bold lh-1">REUSE<br> REDUCE<br> TAPEKO</h1>
+        <p class="lead">Var en del av förändringen från enormt slöseri, till bättre användning. Vi hjälper dig förminska ditt miljöavtryck genom att återanvända begagnade designmöbler. Vi kallar det Tapeko</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button> -->
-          <a href="products.php" class="btn btn-outline-secondary btn-lg px-4">Start shopping</a>
+          <a href="products.php" class="btn btn-outline-secondary btn-lg px-4">Börja shoppa</a>
         </div>
       </div>
-      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" src="assets/images/cover.jpeg" alt="" width="720">
+      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
+          <img class="rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
       </div>
     </div>
-  </div>
+  </div> 
       
 
 
