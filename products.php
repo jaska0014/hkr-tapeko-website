@@ -105,7 +105,7 @@
 </div>
 </div>
       
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
 
   <!-- Footer -->
 <footer class=" text-start bg-light">
@@ -179,5 +179,5 @@
 
 </footer>
 <!-- Footer -->
-
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>

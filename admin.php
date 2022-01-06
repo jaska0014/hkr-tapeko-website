@@ -56,7 +56,7 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Nedan ser du en lista på dina annonser som ligger under aktiv försäljning just nu.</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-sm-3">Skapa ny annons</button>
+      <a href="add.php" class="btn btn-outline-secondary btn-lg px-4 me-sm-3">Skapa ny annons</a>
         <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
       </div>
     </div>
@@ -70,8 +70,8 @@
       <div class="card-body">
         <h5 class="card-title">Pernilla med fotpall</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="product-detail.php" class="btn btn-outline-secondary">Edit</a>
-        <a href="product-detail.php" class="btn btn-primary ml-2">Delete</a>
+        <a href="edit.php" class="btn btn-outline-secondary">Edit</a>
+        <a href="delete.php" class="btn btn-primary ml-2">Delete</a>
       </div>
     </div>
   </div>
@@ -81,8 +81,8 @@
       <div class="card-body">
         <h5 class="card-title">Svenson Svenson soffa</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="product-detail.php" class="btn btn-outline-secondary">Edit</a>
-        <a href="product-detail.php" class="btn btn-primary ml-2">Delete</a>
+        <a href="edit.php" class="btn btn-outline-secondary">Edit</a>
+        <a href="delete.php" class="btn btn-primary ml-2">Delete</a>
       </div>
     </div>
   </div>

@@ -49,8 +49,8 @@
         </div>
         </div>
         </nav>
-        y-5">
-<diss="containe  my-5my-5"  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
       <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
         <h1 class="display-4 fw-bold lh-1">Welcome to TAPEKO</h1>
         <p class="lead">Be a part of the change from careless consumption, to better use. We’ll help you reduce your environmental footprint by reusing pre-loved design furniture. We call it Tapeko.</p>
@@ -65,7 +65,7 @@
     </div>
   </div>
       
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
 
 
 
@@ -141,7 +141,7 @@
 
 </footer>
 <!-- Footer -->
-
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 

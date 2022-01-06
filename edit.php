@@ -41,26 +41,10 @@
                 </div>
             </div>
         </nav>
-        
-<div class="container my-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 class="display-4 fw-bold lh-1">Welcome to TAPEKO</h1>
-        <p class="lead">Be a part of the change from careless consumption, to better use. We’ll help you reduce your environmental footprint by reusing pre-loved design furniture. We call it Tapeko.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button> -->
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Start shopping</button>
-        </div>
-      </div>
-      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" src="assets/images/cover.jpeg" alt="" width="720">
-      </div>
-    </div>
-  </div>
+
       
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-
-
+ 
+ 
 
 <!-- Footer -->
 <footer class=" text-start" style="background-color:#ededed;">
@@ -144,7 +128,7 @@
   <!-- Grid container -->
 </footer>
 <!-- Footer -->
-
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 
