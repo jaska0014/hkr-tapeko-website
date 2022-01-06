@@ -41,11 +41,13 @@
 
         <!-- Beh;ver struktureras -->
     <nav class="navbar d-flex pt-2" style="background-color: black">
+    <div class="container fluid"> 
         <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
             <li class="breadcrumb-item active" aria-current="page">Produkter</li> </ol></a> </div>
                 <div class="d-flex flex-row-reverse bd-highlight">
-            <div class="p-2 bd-highlight text-light "> <a href="#!" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+            <div class="p-2 bd-highlight text-light "> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
           <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
+        </div>
         </div>
     </nav>
 
@@ -91,6 +93,15 @@
       </div>
     </div>
   </div>
+
+  <div class="container-fluid my-5 bg-dark">
+    <div class="row">
+    <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
+    </div>
+    </div>
+  </div>
+
+
 </div>
 </div>
       

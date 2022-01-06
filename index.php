@@ -41,15 +41,16 @@
 
         <!-- Beh;ver struktureras -->
         <nav class="navbar d-flex pt-2" style="background-color: black">
+        <div class="container fluid"> 
           <div class="d-flex flex-row bd-highlight"   <a class="text-start text-decoration-none" <ol class="breadcrumb"> <li class="breadcrumb-item active" aria-current="page">Hem</li> </ol></a> </div>
           <div class="d-flex flex-row-reverse bd-highlight">
-          <div class="p-2 bd-highlight text-light"> <a href="#!" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+          <div class="p-2 bd-highlight text-light"> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
           <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
         </div>
+        </div>
         </nav>
-        
-<div class="container my-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        y-5">
+<diss="containe  my-5my-5"  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
       <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
         <h1 class="display-4 fw-bold lh-1">Welcome to TAPEKO</h1>
         <p class="lead">Be a part of the change from careless consumption, to better use. We’ll help you reduce your environmental footprint by reusing pre-loved design furniture. We call it Tapeko.</p>

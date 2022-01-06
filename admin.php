@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,10 +26,10 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
+                        <a class="nav-link active" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="product-detail.php">VÅRA TJÄNSTER</a>
+                        <a class="nav-link" href="product-detail.php">VÅRA TJÄNSTER</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">MÖBELTAPETSERARE</a>
@@ -39,69 +40,58 @@
         </nav>	
 
         <!-- Beh;ver struktureras -->
-        <nav class="navbar d-flex pt-2" style="background-color: black">
-        <div class="container fluid"> 
-          <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
-    <li class="breadcrumb-item active"><a href="products.php" class="text-decoration-none">Produkter</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Detaljer</li> </ol></a> </div>
-    <div class="d-flex flex-row-reverse bd-highlight">
-          <div class="p-2 bd-highlight text-light "> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+    <nav class="navbar d-flex pt-2" style="background-color: black">
+    <div class="container fluid"> 
+        <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Admin</li> </ol></a> </div>
+                <div class="d-flex flex-row-reverse bd-highlight">
+            <div class="p-2 bd-highlight text-light "> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
           <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
         </div>
         </div>
-        </nav>
+    </nav>
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold">Välkommen Andrea!</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Nedan ser du en lista på dina annonser som ligger under aktiv försäljning just nu.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-sm-3">Skapa ny annons</button>
+        <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
+      </div>
+    </div>
+  </div>
+
+<div class="container fluid"> 
+<div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pernilla med fotpall</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="product-detail.php" class="btn btn-outline-secondary">Edit</a>
+        <a href="product-detail.php" class="btn btn-primary ml-2">Delete</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Svenson Svenson soffa</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="product-detail.php" class="btn btn-outline-secondary">Edit</a>
+        <a href="product-detail.php" class="btn btn-primary ml-2">Delete</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
       
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-  <div class="container-fluid my-5 bg-light">
-    <div class="row">
-      <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
-      <h5 class="p-1">FÅTÖLJ</h5>
-        <h1 class="display-4 fw-bold lh-1">FÅTÖLJ,<br> 2 ST, INGRID</h1>
-        <p class="lead">Söker tapetserare till dessa två identiska fåtöljer</p>
-        <hr class="divider">
-        <p class="lead">Designer: Bruno mathsson</p>
-        <hr class="divider">
-        <p class="lead">Årsmodell: 1960</p>
-        <hr class="divider">
-        <p class="lead">Budget: 10.000 kr</p>
-        <hr class="divider">
-        <p class="lead">Upholsterer: PTV, Göteborg</p>
-        <hr class="divider">
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">KÖP NU</button>
-      </div>
-      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
-          <img class="rounded-lg-3" src="assets/images/armchair.jpg" alt="armchair">
-      </div>
-    </div>
-  </div>
 
-  <div class="container-fluid my-5 bg-light">
-    <div class="row">
-     <div class="product-description-armchair">   
-      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
-          <img class="rounded-lg-3" src="assets/images/double_armchair.png" alt="double_armchair">
-          <img class="rounded-lg-3" src="assets/images/double_armchair_behind.png" alt="double_armchair_behind">
-          <img class="rounded-lg-3" src="assets/images/branding_armchair.png" alt="branding_armchair"> 
-      </div>
-     </div>
-    </div> 
-  </div> 
-
-  <div class="container-fluid my-5 bg-light">
-    <div class="row">
-      <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
-        <h1 class="display-4 fw-bold lh-1">REUSE<br> REDUCE</h1>
-        <p class="lead">Var en del av förändringen från enormt slöseri, till bättre användning. Vi hjälper dig förminska ditt miljöavtryck genom att återanvända förägda design möbler. Vi kallar det Tapeko</p>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">CTA</button>
-      </div>
-      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
-          <img class="rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
-      </div>
-    </div>
-  </div>
-
-<!-- Footer -->
+  <!-- Footer -->
 <footer class=" text-start bg-light">
   <!-- Grid container -->
   <div class="container mt-5 pt-5 pb-5">
@@ -173,6 +163,5 @@
 
 </footer>
 <!-- Footer -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
-
-
