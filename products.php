@@ -51,14 +51,31 @@
         </div>
     </nav>
 
+    <div class="container fluid px-4 pt-5 my-5 text-left">
+    <h1 class="display-4 fw-bold">Begagnade möbler</h1>
+      <p class="lead mb-4">Reduce your environmental footprint by reusing pre-loved design furniture.</p>
+    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+  <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+</div>
+  </div>
+
+
+
 <div class="container fluid"> 
 <div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
   <div class="col">
     <div class="card">
       <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Z</h5>
+        <p class="card-text">Nyrenoverad snurrfåtölj med ny bärande väv och ny DUX original kuddsats i tobaksbrunt skinn Elmotique.</p>
         <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
       </div>
     </div>
@@ -113,19 +130,7 @@
     </div>
   </div>
 
-<!-- End Container Upholsterer -->
-<div "container-fluid my-5 bg-light">
-    <div class="row">
-      <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
-        <h1 class="display-4 fw-bold lh-1">REUSE<br> REDUCE</h1>
-        <p class="lead">Var en del av förändringen från enormt slöseri, till bättre användning. Vi hjälper dig förminska ditt miljöavtryck genom att återanvända förägda design möbler. Vi kallar det Tapeko</p>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">CTA</button>
-      </div>
-      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
-          <img class="rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
-      </div>
-    </div>
-  </div>      
+<!-- End Container Upholsterer --> 
 
 
   <!-- Footer -->

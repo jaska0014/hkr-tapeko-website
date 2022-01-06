@@ -95,9 +95,8 @@
           <img class="rounded-lg-3" src="assets/images/armchair.jpg" alt="armchair">
       </div>
     </div>
-  </div> -->
-
-  <div class="container-fluid my-5">
+  <  
+  < --> -->div class="container-fluid my-5">
     <div class="row">
      <div class="product-description-armchair">   
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
@@ -108,6 +107,7 @@
      </div>
     </div> 
   </div> 
+  </div>
 
 <!-- Footer -->
 <footer class=" text-start bg-light">
@@ -180,8 +180,8 @@
   <!-- Grid container -->
 
 </footer>
-<!-- Footer -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- F
+<script src="assets/js/bootstrap.bundle.min.js"></script>ooter -->
 </body>
 
 
