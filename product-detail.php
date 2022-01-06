@@ -41,7 +41,7 @@
         <!-- Beh;ver struktureras -->
         <nav class="navbar d-flex pt-2" style="background-color: black">
         <div class="container fluid"> 
-          <div class="d-flex flex-row bd-highlight">   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
+          <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
     <li class="breadcrumb-item active"><a href="products.php" class="text-decoration-none">Produkter</a></li>
     <li class="breadcrumb-item active" aria-current="page">Detaljer</li> </ol></a> </div>
     <div class="d-flex flex-row-reverse bd-highlight">
@@ -50,10 +50,31 @@
         </div>
         </div>
         </nav>
-      
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
+    
+   <div class="container-fluid bg-light">
+    <div class="row">
+    <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
+      <h5 class="p-1">FÅTÖLJ</h5>
+        <h1 class="display-4 fw-bold lh-1">FÅTÖLJ,<br> 2 ST, INGRID</h1>
+        <p class="lead">Söker tapetserare till dessa två identiska fåtöljer</p>
+        <hr class="divider">
+        <p class="lead">Designer: Bruno mathsson</p>
+        <hr class="divider">
+        <p class="lead">Årsmodell: 1960</p>
+        <hr class="divider">
+        <p class="lead">Budget: 10.000 kr</p>
+        <hr class="divider">
+        <p class="lead">Upholsterer: PTV, Göteborg</p>
+        <hr class="divider">
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">KÖP NU</button>
+      </div>
+      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
+          <img class="rounded-lg-3" src="assets/images/double_armchair.png" alt="armchair">
+      </div>
+    </div>
+  </div>
 
-  <div class="container-fluid my-5 bg-light">
+  <!-- <div class="container-fluid my-5 bg-light">
     <div class="row">
       <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
       <h5 class="p-1">FÅTÖLJ</h5>
@@ -74,9 +95,9 @@
           <img class="rounded-lg-3" src="assets/images/armchair.jpg" alt="armchair">
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="container-fluid my-5 bg-light">
+  <div class="container-fluid my-5">
     <div class="row">
      <div class="product-description-armchair">   
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
@@ -87,18 +108,6 @@
      </div>
     </div> 
   </div> 
-   <div class="container-fluid my-5 bg-light">
-    <div class="row">
-      <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
-        <h1 class="display-4 fw-bold lh-1">REUSE<br> REDUCE</h1>
-        <p class="lead">Var en del av förändringen från enormt slöseri, till bättre användning. Vi hjälper dig förminska ditt miljöavtryck genom att återanvända förägda design möbler. Vi kallar det Tapeko</p>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">CTA</button>
-      </div>
-      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
-          <img class="rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
-      </div>
-    </div>
-  </div>
 
 <!-- Footer -->
 <footer class=" text-start bg-light">
@@ -172,6 +181,7 @@
 
 </footer>
 <!-- Footer -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 

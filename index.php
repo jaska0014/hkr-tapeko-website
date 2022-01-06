@@ -64,6 +64,13 @@
       </div>
     </div>
   </div> 
+
+  <div class="px-4 pt-5 my-5 text-center">
+    <h3>VÅR VISION</h3>
+    <div class="col-lg-6 mx-auto">
+      <p class="vision mb-4">Ingen designmöbel skall någonsin hamna på soptippen.</p>
+    </div>
+  </div>
       
 
 

@@ -42,7 +42,7 @@
         <!-- Beh;ver struktureras -->
     <nav class="navbar d-flex pt-2" style="background-color: black">
     <div class="container fluid"> 
-        <div class="d-flex flex-row bd-highlight">   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
+        <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
             <li class="breadcrumb-item active" aria-current="page">Produkter</li> </ol></a> </div>
                 <div class="d-flex flex-row-reverse bd-highlight">
             <div class="p-2 bd-highlight text-light "> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
@@ -92,12 +92,29 @@
         <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
       </div>
     </div>
+  </div>>
+</div>
+
+ <div class=<!-- Container Upholsterer -->
+
+<div class="container-fluid pt-5 bg-light">
+    <div class="row">
+    <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
+        <h1 class="display-4 fw-bold lh-1">PTV</h1>
+        <hr class="divider">
+        <p>PTV is an upholstery with speciality in 20th century Scandinavian DUX classics.</p>
+        <p>"Whether you buy a vintage armchair, or hand in a beloved piece of furniture for renovation, you can be sure that there is a great deal of craftmanship and a great love and interest in design behind our counter."</p>
+        <hr class="divider">
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Find an upholsterer close to you</button>
+      </div>
+      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
+          <img class="rounded-lg-3" src="assets/images/double_armchair.png" alt="armchair">
+      </div>
+    </div>
   </div>
-</div>
-</div>
 
-
- <div class="container-fluid my-5 bg-light">
+<!-- End Container Upholsterer -->
+<div "container-fluid my-5 bg-light">
     <div class="row">
       <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
         <h1 class="display-4 fw-bold lh-1">REUSE<br> REDUCE</h1>
@@ -108,7 +125,7 @@
           <img class="rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
       </div>
     </div>
-  </div>     
+  </div>      
 
 
   <!-- Footer -->
