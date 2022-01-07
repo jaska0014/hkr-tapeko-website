@@ -66,12 +66,13 @@
 <!-- Huvudrubrik slut --> 
 
 <!-- Filtrering börjar --> 
+<div class="sticky-top"> 
     <div class="d-grid gap-2 d-md-block">
-        <label class="btn btn-outline-secondary btn-sm" for="btnradio1">Show all</label>
-        <label class="btn btn-outline-secondary btn-sm" for="btnradio2">Fåtöljer</label>
-        <label class="btn btn-outline-secondary btn-sm" for="btnradio3">Soffor</label>
-        <label class="btn btn-outline-secondary btn-sm" for="btnradio4">Bord</label>
-        <label class="btn btn-outline-secondary btn-sm" for="btnradio5">Annat</label>
+        <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio1">Show all</label>
+        <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio2">Fåtöljer</label>
+        <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio3">Soffor</label>
+        <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio4">Bord</label>
+        <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio5">Annat</label>
     </div>
     <!-- Filtrering slutar -->
 </div>
@@ -270,24 +271,6 @@
 </div>
 </div>
 <!--Container för korten slutar ALLA DIVAR MÅSTE VARA STÄNGDA -->
-
-<!-- Upholster-del börjar -->
-<div class="container-fluid bg-light">
-    <div class="row">
-    <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
-        <h1 class="display-4 fw-bold lh-1">PTV</h1>
-        <hr class="divider">
-        <p>PTV is an upholstery with speciality in 20th century Scandinavian DUX classics.</p>
-        <p>"Whether you buy a vintage armchair, or hand in a beloved piece of furniture for renovation, you can be sure that there is a great deal of craftmanship and a great love and interest in design behind our counter."</p>
-        <hr class="divider">
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Find an upholsterer close to you</button>
-      </div>
-      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
-          <img class="rounded-lg-3" src="assets/images/double_armchair.png" alt="armchair">
-      </div>
-    </div>
-  </div>
-<!-- Upholster-del slutar -->
 
   <!-- Footer -->
 <footer class=" text-start bg-light">

@@ -2,6 +2,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+i{
+    padding-right: 30px;
+}
+
 .navbar-toggler {
     width: 20px;
     height: 20px;
@@ -77,11 +81,19 @@ body{
     transform: rotate(0deg) 
 }
 
-.product-description-armchair  {
-    margin-right: 0%;
-    text-align: center;
-}
 
 .vision{
     font-size: 22px;
 }
+
+.padding_right {
+    padding-right: 28px;
+}
+
+.card-text{
+    font-fize: 28px;
+    font-fize: 28px;
+    font-fize: 28px;
+}
+
+  
