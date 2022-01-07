@@ -52,7 +52,7 @@
         
     <div class="container-fluid bg-light">
     <div class="row">
-      <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
+      <div class="col-lg-3 ms-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-star">
         <h1 class="display-4 fw-bold lh-1">REUSE<br> REDUCE<br> TAPEKO</h1>
         <p class="lead">Var en del av förändringen från enormt slöseri, till bättre användning. Vi hjälper dig förminska ditt miljöavtryck genom att återanvända begagnade designmöbler. Vi kallar det Tapeko</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">

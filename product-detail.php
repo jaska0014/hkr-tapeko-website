@@ -74,7 +74,7 @@
     </div>
   </div>
 
-  <!-- <div class="container-fluid my-5 bg-light">
+  <div class="container-fluid my-5 bg-light">
     <div class="row">
       <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
       <h5 class="p-1">FÅTÖLJ</h5>
@@ -95,8 +95,8 @@
           <img class="rounded-lg-3" src="assets/images/armchair.jpg" alt="armchair">
       </div>
     </div>
-  <  
-  < --> -->div class="container-fluid my-5">
+    </div>
+  <div class="container-fluid my-5">
     <div class="row">
      <div class="product-description-armchair">   
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
@@ -107,7 +107,6 @@
      </div>
     </div> 
   </div> 
-  </div>
 
 <!-- Footer -->
 <footer class=" text-start bg-light">
