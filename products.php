@@ -76,11 +76,10 @@
 <!-- Filtreringcontainer börjar  --> 
 <div class="container fluid px-4 my-5 text-left sticky-top"> 
     <div class="d-grid gap-2 d-md-block">
-        <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio1">Show all</label>
-        <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio2">Fåtöljer</label>
-        <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio3">Soffor</label>
-        <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio4">Bord</label>
-        <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio5">Annat</label>
+        <a class="btn btn-light btn-outline-secondary btn-sm" href="products.php" for="btnradio1">Allt</a>
+        <a class="btn btn-light btn-outline-secondary btn-sm" href="products.php?where=Fåtölj" for="btnradio2">Fåtöljer</a>
+        <a class="btn btn-light btn-outline-secondary btn-sm" href="products.php?where=Soffa" for="btnradio3">Soffor</a>
+        <a class="btn btn-light btn-outline-secondary btn-sm" href="products.php?where=Bord" for="btnradio4">Bord</a>
     </div>
  </div>
     <!-- Filtreringscontainer slutar -->
@@ -95,7 +94,7 @@
           {
             while ($row = $stmt->fetch()) {
               echo '<div class="col mb-4">';
-              echo '<div class="card border-0">';
+              echo '<div class="card product-card border-0">';
               echo '<img src="'.$row['image_url'].'" class="card-img-top" alt="...">';
               echo '<div class="card-body p-0 pt-3">';
               echo '<h5 class="card-title">'.$row['product_name'].'</h5>';
