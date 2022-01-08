@@ -11,12 +11,14 @@ CREATE TABLE `products`
   `product_price` DECIMAL(18,2) NOT NULL , 
   `product_year` INT NOT NULL , 
   `product_location` VARCHAR(50) NOT NULL , 
+  `image_url` varchar(500) NOT NULL DEFAULT 'images/default/default.jpg',
+  `date_added` DATETIME DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`product_id`)
 );
 
-DROP TABLE IF EXISTS `product_images`; 
-CREATE TABLE `product_images` 
-(
-  `product_id` BIGINT NOT NULL,
-  `image_url` varchar(500) NOT NULL DEFAULT 'images/default/default.jpg'
-);
+-- DROP TABLE IF EXISTS `product_images`; 
+-- CREATE TABLE `product_images` 
+-- (
+--   `product_id` BIGINT NOT NULL,
+--   `image_url` varchar(500) NOT NULL DEFAULT 'images/default/default.jpg'
+-- );

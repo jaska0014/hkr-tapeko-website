@@ -1,3 +1,8 @@
+<?php
+  require_once 'backend/config/db.php';
+  require_once 'backend/functions/select.php';
+?>
+
 <!DOCTYPE html>
 <html lang="sv">
 
@@ -80,197 +85,44 @@
  </div>
     <!-- Filtreringscontainer slutar -->
 
-<!-- Start för Container till korten --> 
+<!-- Start för Container till korten -->
 <div class="container fluid">
-<div class="container">
-<div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
+    <div class="container">
+        <div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
 
-<!-- Card 1 start --> 
-  <div class="col mb-4">
-    <div class="card border-0">
-      <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
-      <div class="card-body p-0 pt-3">
-      <h5 class="card-title">Z</h5>
-
-<div class="d-flex mb-3">
-    <div class="pt-2 flex-fill">
-        <p class="card-text1">Nyrenoverad snurrfåtölj med ny bärande väv och ny DUX original kuddsats i tobaksbrunt skinn Elmotiqie.</p>
-        <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
-    </div>
-        <div class="p-2 flex-fill">
-            <p class="card-text">Designer: DUX</p>
-            <p class="card-text">Årsmodell: 1969</p>
-            <p class="card-text">Pris: 32.000 KR</p>
-            <p class="card-text">Plats: Göteborg</p>
-        </div>
-    </div>
-    </div>
-</div>
-  </div>
-<!-- Card 1 slut -->
-<!-- Card 2 start Linnea har ändrat i just detta kort med förslag i koden-->
-  <div class="col mb-4">
-    <div class="card border-0">
-      <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
-      <div class="card-body p-0 pt-3">
-        <h5 class="card-title">PERNILLA MED FOTPALL</h5>
-            <div class="d-flex mb-3">
-                <div class="pt-2 flex-fill">
-                    <p class="card-text1">Ett renoveringsobjekt som fortfarande går att använda som den är. Kostnad för helrenovering ca. 18.000 ink. moms.</p>
-                    <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
-                </div>
-                <div class="p-2 flex-fill">
-                    <p class="card-text">Designer: Bruno Mathsson</p>
-                    <p class="card-text">Årsmodell: 1960</p>
-                    <p class="card-text">Pris: 18.000 KR</p>
-                    <p class="card-text">Plats: Göteborg</p>
-                </div>
-            </div>
-      </div>
-    </div>
-  </div>
-  <!-- Card 2 slut -->
-  <!-- Card 3 start -->
-  <div class="col mb-4">
-    <div class="card border-0">
-      <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
-      <div class="card-body p-0 pt-3">
-        <h5 class="card-title">LIGGFÅTÖLJ PERNILLA</h5>
-            <div class="d-flex mb-3">
-                <div class="pt-2 flex-fill">
-                    <p class="card-text1">With DUX´s double-spring system, with thousands of dynamically interlinked springs.</p>
-                    <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
-                </div>
-                <div class="p-2 flex-fill">
-                    <p class="card-text">Designer: Bruno Mathsson</p>
-                    <p class="card-text">Årsmodell: 1960</p>
-                    <p class="card-text">Pris: 18.000 KR</p>
-                    <p class="card-text">Plats: Göteborg</p>
-                </div>
-            </div>         
-      </div>
-    </div>
-  </div>
-  <!-- Card 3 slut -->
-  <!-- Card 4 start -->
-  <div class="col mb-4">
-    <div class="card border-0">
-      <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
-      <div class="card-body p-0 pt-3">
-        <h5 class="card-title">RITZY SOFA</h5>
-            <div class="d-flex mb-3">
-                <div class="pt-2 flex-fill">
-                    <p class="card-text1">Fusce dapibus, tellus ac cursus commodo, tortor mauris. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                    <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
-                </div>
-                <div class="p-2 flex-fill">
-                    <p class="card-text">Designer: Bruno Mathsson</p>
-                    <p class="card-text">Årsmodell: 1960</p>
-                    <p class="card-text">Pris: 18.000 KR</p>
-                    <p class="card-text">Plats: Göteborg</p>
-                </div>
-            </div>  
-      </div>
-    </div>
-  </div>
-<!-- Card 4 slut -->
+          <?php
+          if ($stmt_upcoming->rowCount() > 0) 
+          {
+            while ($row = $stmt_upcoming->fetch()) {
+              echo "<div class='card card-event' data-id='".$row['id']."' style='min-width: 18rem ;width: 18rem; height: 18rem;'>";
+              echo "<img src='".$row['image']."'class='card-img-top' alt='green'>";
+              echo "<a href='edit.php?id=".$row['id']."' class='update btn btn-sm btn-primary'>Update</a>";
+              echo "<a href='remove.php?id=".$row['id']."' class='delete btn btn-sm btn-danger'>Delete</a>";
+              echo "<div class='card-body'>";
+              echo "<p class='card-text'>".strtoupper($row['title'])."</p>";
+              echo "<p class='card-under'>Starts on ".date_format(date_create($row['date']),"Y/m/d")."</p>";
+              echo "</div>";
+              echo "</div>";
+            }
+          } 
+          else {
+              echo "<div class='card card-event' style='width: 18rem;'>";
+              echo "<img src='assets/images/bummer.png'class='card-img-top' alt='green'>";
+              echo "<a href='add.php?id=' type='submit' class='btn btn-primary btn-sm mr-3;> <i class='fa fa-plus mr-1'></i>CREATE </a>";
+              echo "<div class='card-body'>";
+              echo "</div>";
+              echo "</div>";
+          }
+        ?>
 
 
 
-<!-- Card 5 start -->
-<div class="col mb-4">
-    <div class="card border-0">
-    <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
-        <div class="card-body p-0 pt-3">
-            <h5 class="card-title">FÅTÖLJER, 2 ST</h5>
-                <div class="d-flex mb-3">
-                    <div class="pt-2 flex-fill">
-                        <p class="card-text1">With DUX´s double-spring system, with thousands of dynamically interlinked springs.</p>
-                        <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
-                    </div>
-                    <div class="p-2 flex-fill">
-                        <p class="card-text">Designer: BRUNO MATHSSON</p>
-                        <p class="card-text">Årsmodell: 1969</p>
-                        <p class="card-text">Skick: BRA</p>
-                        <p class="card-text">Upholsterer: PTV, Göteborg</p>
-                    </div>
-                </div>
+
+
         </div>
     </div>
 </div>
-<!-- Card 5 slut -->
-<!-- Card 6 start -->
-<div class="col mb-4">
-    <div class="card border-0">
-    <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
-        <div class="card-body p-0 pt-3">
-            <h5 class="card-title">RITZY SOFA</h5>
-                <div class="d-flex mb-3">
-                    <div class="pt-2 flex-fill">
-                        <p class="card-text1">Fusce dapibus, tellus ac cursus commodo, tortor mauris. Et harum quidem rerum facilis.</p>
-                        <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
-                    </div>
-                    <div class="p-2 flex-fill">
-                        <p class="card-text">Designer: BRUNO MATHSSON</p>
-                        <p class="card-text">Årsmodell: 1970</p>
-                        <p class="card-text">Skick: RENOVERAD</p>
-                        <p class="card-text">Upholsterer: PTV, Göteborg</p>
-                    </div>
-                </div>
-        </div>
-    </div>
-</div>
-  <!-- Card 6 slut -->
-  <!-- Card 7 start -->
-  <div class="col mb-4">
-    <div class="card border-0">
-      <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
-      <div class="card-body p-0 pt-3">
-        <h5 class="card-title">X</h5>
-            <div class="d-flex mb-3">
-                <div class="pt-2 flex-fill">
-                    <p class="card-text1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                    <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
-                </div>
-                <div class="p-2 flex-fill">
-                    <p class="card-text">Designer: DUX</p>
-                    <p class="card-text">Årsmodell: 1982</p>
-                    <p class="card-text">Skick: BRA</p>
-                    <p class="card-text">Upholsterer: PTV, Göteborg</p>
-                </div>
-            </div>
-      </div>
-    </div>
-  </div>
-  <!-- Card 7 slut -->
-  <!-- Card 8 start -->
-  <div class="col mb-4">
-    <div class="card border-0">
-      <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
-      <div class="card-body p-0 pt-3">
-        <h5 class="card-title">Y</h5>
-            <div class="d-flex mb-3">
-                    <div class="pt-2 flex-fill">
-                        <p class="card-text1">Fusce dapibus, tellus ac cursus commodo, tortor mauris. Et harum quidem rerum facilis.</p>
-                        <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
-                    </div>
-                    <div class="p-2 flex-fill">
-                        <p class="card-text">Designer: BRUNO MATHSSON</p>
-                        <p class="card-text">Årsmodell: 1978</p>
-                        <p class="card-text">Skick: NYRENOVERAD</p>
-                        <p class="card-text">Upholsterer: PTV, Göteborg</p>
-                    </div>
-            </div>
-      </div>
-    </div>
-  </div>
-  <!-- Card 8 slut -->
 
-
-</div>
-</div>
-</div>
-</div>
 <!--Container för korten slutar ALLA DIVAR MÅSTE VARA STÄNGDA -->
 
   <!-- Footer -->
