@@ -100,8 +100,8 @@
         <div class="p-2 flex-fill">
             <p class="card-text">Designer: DUX</p>
             <p class="card-text">Årsmodell: 1969</p>
-            <p class="card-text">Skick: NYRENOVERAD</p>
-            <p class="card-text">Upholsterer: PTV, Göteborg</p>
+            <p class="card-text">Pris: 32.000 KR</p>
+            <p class="card-text">Plats: Göteborg</p>
         </div>
     </div>
     </div>
@@ -120,10 +120,10 @@
                     <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
                 </div>
                 <div class="p-2 flex-fill">
-                    <p class="card-text">Designer: BRUNO MATHSSON</p>
+                    <p class="card-text">Designer: Bruno Mathsson</p>
                     <p class="card-text">Årsmodell: 1960</p>
                     <p class="card-text">Pris: 18.000 KR</p>
-                    <p class="card-text">Upholsterer: Göteborg</p>
+                    <p class="card-text">Plats: Göteborg</p>
                 </div>
             </div>
       </div>
@@ -142,10 +142,10 @@
                     <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
                 </div>
                 <div class="p-2 flex-fill">
-                    <p class="card-text">Designer: BRUNO MATHSSON</p>
-                    <p class="card-text">Årsmodell: 1969</p>
-                    <p class="card-text">Skick: BRA</p>
-                    <p class="card-text">Upholsterer: PTV, Göteborg</p>
+                    <p class="card-text">Designer: Bruno Mathsson</p>
+                    <p class="card-text">Årsmodell: 1960</p>
+                    <p class="card-text">Pris: 18.000 KR</p>
+                    <p class="card-text">Plats: Göteborg</p>
                 </div>
             </div>         
       </div>
@@ -164,10 +164,10 @@
                     <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
                 </div>
                 <div class="p-2 flex-fill">
-                    <p class="card-text">Designer: BRUNO MATHSSON</p>
-                    <p class="card-text">Årsmodell: 1970</p>
-                    <p class="card-text">Skick: RENOVERAD</p>
-                    <p class="card-text">Upholsterer: PTV, Göteborg</p>
+                    <p class="card-text">Designer: Bruno Mathsson</p>
+                    <p class="card-text">Årsmodell: 1960</p>
+                    <p class="card-text">Pris: 18.000 KR</p>
+                    <p class="card-text">Plats: Göteborg</p>
                 </div>
             </div>  
       </div>

@@ -61,7 +61,67 @@
     </div>
   </div>
 
-<div class="container fluid"> 
+
+<!-- Start för Container till korten --> 
+<div class="container fluid">
+<div class="container">
+<div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
+
+<!-- Card 1 start --> 
+  <div class="col mb-4">
+    <div class="card border-0">
+      <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
+      <div class="card-body p-0 pt-3">
+      <h5 class="card-title">Z</h5>
+
+<div class="d-flex mb-3">
+    <div class="pt-2 flex-fill">
+        <p class="card-text1">Nyrenoverad snurrfåtölj med ny bärande väv och ny DUX original kuddsats i tobaksbrunt skinn Elmotiqie.</p>
+        <a href="edit.php" class="btn btn-outline-secondary">Redigera</a>
+        <a href="delete.php" class="btn btn-primary ml-2">Ta bort</a>
+    </div>
+        <div class="p-2 flex-fill">
+            <p class="card-text">Designer: DUX</p>
+            <p class="card-text">Årsmodell: 1969</p>
+            <p class="card-text">Pris: 32.000 KR</p>
+            <p class="card-text">Plats: Göteborg</p>
+        </div>
+    </div>
+    </div>
+</div>
+  </div>
+<!-- Card 1 slut -->
+<!-- Card 2 start Linnea har ändrat i just detta kort med förslag i koden-->
+  <div class="col mb-4">
+    <div class="card border-0">
+      <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
+      <div class="card-body p-0 pt-3">
+        <h5 class="card-title">PERNILLA MED FOTPALL</h5>
+            <div class="d-flex mb-3">
+                <div class="pt-2 flex-fill">
+                    <p class="card-text1">Ett renoveringsobjekt som fortfarande går att använda som den är. Kostnad för helrenovering ca. 18.000 ink. moms.</p>
+                    <a href="edit.php" class="btn btn-outline-secondary">Redigera</a>
+                    <a href="delete.php" class="btn btn-primary ml-2">Ta bort</a>
+                </div>
+                <div class="p-2 flex-fill">
+                    <p class="card-text">Designer: Bruno Mathsson</p>
+                    <p class="card-text">Årsmodell: 1960</p>
+                    <p class="card-text">Pris: 18.000 KR</p>
+                    <p class="card-text">Plats: Göteborg</p>
+                </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <!-- Card 2 slut -->
+</div>
+</div>
+</div>
+</div>
+<!--Container för korten slutar ALLA DIVAR MÅSTE VARA STÄNGDA -->
+
+
+<!-- <div class="container fluid"> 
 <div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
   <div class="col">
     <div class="card">
@@ -72,8 +132,16 @@
         <a href="edit.php" class="btn btn-outline-secondary">Redigera</a>
         <a href="delete.php" class="btn btn-primary ml-2">Ta bort</a>
       </div>
+
+      <div class="p-2 flex-fill">
+            <p class="card-text">Designer: DUX</p>
+            <p class="card-text">Årsmodell: 1969</p>
+            <p class="card-text">Pris: 32.000 KR</p>
+            <p class="card-text">Plats: Göteborg</p>
+        </div>
     </div>
   </div>
+
   <div class="col">
     <div class="card">
       <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
@@ -86,7 +154,7 @@
     </div>
   </div>
 </div>
-</div>
+</div> -->
       
 
 
