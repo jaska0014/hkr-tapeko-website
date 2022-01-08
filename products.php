@@ -91,29 +91,41 @@
         <div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
 
           <?php
-          if ($stmt_upcoming->rowCount() > 0) 
+          if ($stmt->rowCount() > 0) 
           {
-            while ($row = $stmt_upcoming->fetch()) {
-              echo "<div class='card card-event' data-id='".$row['id']."' style='min-width: 18rem ;width: 18rem; height: 18rem;'>";
-              echo "<img src='".$row['image']."'class='card-img-top' alt='green'>";
-              echo "<a href='edit.php?id=".$row['id']."' class='update btn btn-sm btn-primary'>Update</a>";
-              echo "<a href='remove.php?id=".$row['id']."' class='delete btn btn-sm btn-danger'>Delete</a>";
-              echo "<div class='card-body'>";
-              echo "<p class='card-text'>".strtoupper($row['title'])."</p>";
-              echo "<p class='card-under'>Starts on ".date_format(date_create($row['date']),"Y/m/d")."</p>";
-              echo "</div>";
-              echo "</div>";
+            while ($row = $stmt->fetch()) {
+              echo '<div class="col mb-4">';
+              echo '<div class="card border-0">';
+              echo '<img src="'.$row['image_url'].'" class="card-img-top" alt="...">';
+              echo '<div class="card-body p-0 pt-3">';
+              echo '<h5 class="card-title">'.$row['product_name'].'</h5>';
+              echo '<div class="d-flex mb-3">';
+              echo '<div class="pt-2 flex-fill">';
+              echo '<p class="card-text1">'.$row['product_desc'].'</p>';
+              echo '<a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>';
+              echo '</div>';
+              echo '<div class="p-2 flex-fill">';
+              echo '<p class="card-text">Designer: '.$row['product_designer'].'</p>';
+              echo '<p class="card-text">Årsmodell: '.$row['product_year'].'</p>';
+              echo '<p class="card-text">Pris: '.$row['product_price'].'</p>';
+              echo '<p class="card-text">Plats: '.$row['product_location'].'</p>';
+              echo '</div>';
+              echo '</div>';
+              echo '</div>';
+              echo '</div>';
+              echo '</div>';
             }
           } 
           else {
-              echo "<div class='card card-event' style='width: 18rem;'>";
-              echo "<img src='assets/images/bummer.png'class='card-img-top' alt='green'>";
-              echo "<a href='add.php?id=' type='submit' class='btn btn-primary btn-sm mr-3;> <i class='fa fa-plus mr-1'></i>CREATE </a>";
-              echo "<div class='card-body'>";
-              echo "</div>";
-              echo "</div>";
+            echo '<div class="col mb-4">';
+            echo '<div class="card border-0">';
+            echo '<div class="p-2 flex-fill">';
+            echo '<p class="card-text">Nothing in the database</p>';
+            echo '</div>';
+            echo '</div>';
+            echo '</div>';
           }
-        ?>
+          ?>
 
 
 
