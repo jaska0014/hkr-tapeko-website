@@ -57,46 +57,24 @@
       <h5 class="p-1">FÅTÖLJ</h5>
         <h1 class="display-4 fw-bold lh-1">FÅTÖLJ,<br> 2 ST, INGRID</h1>
         <p class="lead">Söker tapetserare till dessa två identiska fåtöljer</p>
-        <hr class="divider">
-        <p class="lead">Designer: Bruno mathsson</p>
+        <!-- <hr class="divider"> -->
+        <!-- <p class="lead">Designer: Bruno mathsson</p>
         <hr class="divider">
         <p class="lead">Årsmodell: 1960</p>
         <hr class="divider">
         <p class="lead">Budget: 10.000 kr</p>
         <hr class="divider">
         <p class="lead">Upholsterer: PTV, Göteborg</p>
-        <hr class="divider">
+     -->    <!-- <hr class="divider"> -->
         <button type="button" class="btn btn-outline-secondary btn-lg px-4">KÖP NU</button>
       </div>
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
-          <img class="rounded-lg-3" src="assets/images/double_armchair.png" alt="armchair">
+          <img class="rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
       </div>
     </div>
   </div>
 
-  <div class="container-fluid my-5 bg-light">
-    <div class="row">
-      <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
-      <h5 class="p-1">FÅTÖLJ</h5>
-        <h1 class="display-4 fw-bold lh-1">FÅTÖLJ,<br> 2 ST, INGRID</h1>
-        <p class="lead">Söker tapetserare till dessa två identiska fåtöljer</p>
-        <hr class="divider">
-        <p class="lead">Designer: Bruno mathsson</p>
-        <hr class="divider">
-        <p class="lead">Årsmodell: 1960</p>
-        <hr class="divider">
-        <p class="lead">Budget: 10.000 kr</p>
-        <hr class="divider">
-        <p class="lead">Upholsterer: PTV, Göteborg</p>
-        <hr class="divider">
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">KÖP NU</button>
-      </div>
-      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
-          <img class="rounded-lg-3" src="assets/images/armchair.jpg" alt="armchair">
-      </div>
-    </div>
-    </div>
-  <div class="container-fluid my-5">
+  <div class="container my-5">
     <div class="row">   
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden mx-auto">
           <img class="rounded-lg-3 pb-3" src="assets/images/double_armchair.png" alt="double_armchair">
@@ -109,8 +87,8 @@
         <p class="pb-3">Designer: Bruno mathsson</p>
         <p class="pb-3">Årsmodell: 1960</p>
         <p class="pb-3">SKICK: NYRENOVERAD</p>
-        <p class="pb-4">Plats: Göteborg</p>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact PTV</button>
+        <p class="pb-4">Plats: Götebor>
+     -->    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact PTV</button>
        </div>
     </div> 
   </div> 

@@ -53,20 +53,23 @@
 <!-- NAV slutar -->
 
 <!-- Container för Huvudrubrik och Filtrering --> 
-<div class="container fluid px-4 my-5 text-left">
+            <div class="container fluid px-4 my-5 text-left">
+                <div class="row">
+                <h1 class="display-4 fw-bold">Begagnade möbler</h1>
 
-            <!-- Ladda upp och ta dig till add php typ ej klar--> 
-            <div class="d-flex flex-row-reverse bd-highlight">
-                <a href="add.php" class="btn btn-outline-secondary btn-lg px-4">Ladda upp annons</a>
+                <!-- ej responsiv placering -->
+                <div class="col d-flex justify-content-end pt-2 pb-3">
+                 <a href="add.php" class="btn btn-outline-secondary btn-lg">Ladda upp annons</a>
                 </div>
-                <!-- Ladda upp slut typ ej klar --> 
+                <!-- ej responsiv placering -->
+                 <p class="lead mb-2">Reduce your environmental footprint by reusing pre-loved design furniture.</p>
+                 </div>
+                </div>
+        
+<!-- Huvudrubrik slut och dess container --> 
 
-        <h1 class="display-4 fw-bold">Begagnade möbler</h1> 
-        <p class="lead mb-4">Reduce your environmental footprint by reusing pre-loved design furniture.</p>
-<!-- Huvudrubrik slut --> 
-
-<!-- Filtrering börjar --> 
-<div class="sticky-top"> 
+<!-- Filtreringcontainer börjar  --> 
+<div class="container fluid px-4 my-5 text-left sticky-top"> 
     <div class="d-grid gap-2 d-md-block">
         <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio1">Show all</label>
         <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio2">Fåtöljer</label>
@@ -74,9 +77,8 @@
         <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio4">Bord</label>
         <label class="btn btn-light btn-outline-secondary btn-sm" for="btnradio5">Annat</label>
     </div>
-    <!-- Filtrering slutar -->
-</div>
-<!-- Container för Huvudrubrik och Filtrering slutar --> 
+ </div>
+    <!-- Filtreringscontainer slutar -->
 
 <!-- Start för Container till korten --> 
 <div class="container fluid">
@@ -85,14 +87,15 @@
 
 <!-- Card 1 start --> 
   <div class="col mb-4">
-    <div class="card">
+    <div class="card border-0">
       <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
+      <div class="card-body p-0 pt-3">
       <h5 class="card-title">Z</h5>
 
 <div class="d-flex mb-3">
-    <div class="p-2 flex-fill">
-        <p class="card-text">Nyrenoverad snurrfåtölj med ny bärande väv och ny DUX original kuddsats i tobaksbrunt skinn Elmotiqie.</p>
+    <div class="pt-2 flex-fill">
+        <p class="card-text1">Nyrenoverad snurrfåtölj med ny bärande väv och ny DUX original kuddsats i tobaksbrunt skinn Elmotiqie.</p>
+        <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
     </div>
         <div class="p-2 flex-fill">
             <p class="card-text">Designer: DUX</p>
@@ -100,21 +103,20 @@
             <p class="card-text">Skick: NYRENOVERAD</p>
             <p class="card-text">Upholsterer: PTV, Göteborg</p>
         </div>
+    </div>
+    </div>
 </div>
-            <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
-    </div>
-    </div>
   </div>
 <!-- Card 1 slut -->
 <!-- Card 2 start Linnea har ändrat i just detta kort med förslag i koden-->
   <div class="col mb-4">
     <div class="card border-0">
       <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
+      <div class="card-body p-0 pt-3">
         <h5 class="card-title">PERNILLA MED FOTPALL</h5>
             <div class="d-flex mb-3">
-                <div class="p-2 flex-fill">
-                    <p class="card-text">Ett renoveringsobjekt som fortfarande går att använda som den är. Kostnad för helrenovering ca. 18.000 ink. moms.</p>
+                <div class="pt-2 flex-fill">
+                    <p class="card-text1">Ett renoveringsobjekt som fortfarande går att använda som den är. Kostnad för helrenovering ca. 18.000 ink. moms.</p>
                     <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
                 </div>
                 <div class="p-2 flex-fill">
@@ -130,13 +132,13 @@
   <!-- Card 2 slut -->
   <!-- Card 3 start -->
   <div class="col mb-4">
-    <div class="card">
+    <div class="card border-0">
       <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
+      <div class="card-body p-0 pt-3">
         <h5 class="card-title">LIGGFÅTÖLJ PERNILLA</h5>
             <div class="d-flex mb-3">
-                <div class="p-2 flex-fill">
-                    <p class="card-text">With DUX´s double-spring system, with thousands of dynamically interlinked springs.</p>
+                <div class="pt-2 flex-fill">
+                    <p class="card-text1">With DUX´s double-spring system, with thousands of dynamically interlinked springs.</p>
                     <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
                 </div>
                 <div class="p-2 flex-fill">
@@ -152,13 +154,13 @@
   <!-- Card 3 slut -->
   <!-- Card 4 start -->
   <div class="col mb-4">
-    <div class="card">
+    <div class="card border-0">
       <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
+      <div class="card-body p-0 pt-3">
         <h5 class="card-title">RITZY SOFA</h5>
             <div class="d-flex mb-3">
-                <div class="p-2 flex-fill">
-                    <p class="card-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris. Et harum quidem rerum facilis est et expedita distinctio.</p>
+                <div class="pt-2 flex-fill">
+                    <p class="card-text1">Fusce dapibus, tellus ac cursus commodo, tortor mauris. Et harum quidem rerum facilis est et expedita distinctio.</p>
                     <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
                 </div>
                 <div class="p-2 flex-fill">
@@ -171,22 +173,19 @@
       </div>
     </div>
   </div>
-</div>
-<!-- Card 4 och övre container slut -->
+<!-- Card 4 slut -->
 
-<!-- 4 understa Cards börjar -->
-<div class="container fluid"> 
-<div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
+
 
 <!-- Card 5 start -->
 <div class="col mb-4">
-    <div class="card">
+    <div class="card border-0">
     <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body p-0 pt-3">
             <h5 class="card-title">FÅTÖLJER, 2 ST</h5>
                 <div class="d-flex mb-3">
-                    <div class="p-2 flex-fill">
-                        <p class="card-text">With DUX´s double-spring system, with thousands of dynamically interlinked springs.</p>
+                    <div class="pt-2 flex-fill">
+                        <p class="card-text1">With DUX´s double-spring system, with thousands of dynamically interlinked springs.</p>
                         <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
                     </div>
                     <div class="p-2 flex-fill">
@@ -202,13 +201,13 @@
 <!-- Card 5 slut -->
 <!-- Card 6 start -->
 <div class="col mb-4">
-    <div class="card">
+    <div class="card border-0">
     <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body p-0 pt-3">
             <h5 class="card-title">RITZY SOFA</h5>
                 <div class="d-flex mb-3">
-                    <div class="p-2 flex-fill">
-                        <p class="card-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris. Et harum quidem rerum facilis.</p>
+                    <div class="pt-2 flex-fill">
+                        <p class="card-text1">Fusce dapibus, tellus ac cursus commodo, tortor mauris. Et harum quidem rerum facilis.</p>
                         <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
                     </div>
                     <div class="p-2 flex-fill">
@@ -224,13 +223,13 @@
   <!-- Card 6 slut -->
   <!-- Card 7 start -->
   <div class="col mb-4">
-    <div class="card">
+    <div class="card border-0">
       <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
+      <div class="card-body p-0 pt-3">
         <h5 class="card-title">X</h5>
             <div class="d-flex mb-3">
-                <div class="p-2 flex-fill">
-                    <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                <div class="pt-2 flex-fill">
+                    <p class="card-text1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                     <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
                 </div>
                 <div class="p-2 flex-fill">
@@ -246,13 +245,13 @@
   <!-- Card 7 slut -->
   <!-- Card 8 start -->
   <div class="col mb-4">
-    <div class="card">
+    <div class="card border-0">
       <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
+      <div class="card-body p-0 pt-3">
         <h5 class="card-title">Y</h5>
             <div class="d-flex mb-3">
-                    <div class="p-2 flex-fill">
-                        <p class="card-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris. Et harum quidem rerum facilis.</p>
+                    <div class="pt-2 flex-fill">
+                        <p class="card-text1">Fusce dapibus, tellus ac cursus commodo, tortor mauris. Et harum quidem rerum facilis.</p>
                         <a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>
                     </div>
                     <div class="p-2 flex-fill">
@@ -266,6 +265,8 @@
     </div>
   </div>
   <!-- Card 8 slut -->
+
+
 </div>
 </div>
 </div>

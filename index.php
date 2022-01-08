@@ -72,7 +72,23 @@
       <p class="vision mb-4">Ingen designmöbel skall någonsin hamna på soptippen.</p>
     </div>
   </div>
-      
+ <!-- Upholster-del börjar -->
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
+        <h1 class="display-4 fw-bold lh-1">PTV</h1>
+        <hr class="divider">
+        <p>PTV is an upholstery with speciality in 20th century Scandinavian DUX classics.</p>
+        <p>"Whether you buy a vintage armchair, or hand in a beloved piece of furniture for renovation, you can be sure that there is a great deal of craftmanship and a great love and interest in design behind our counter."</p>
+        <hr class="divider">
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Find an upholsterer close to you</button>
+      </div>
+      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden">
+          <img class="img-fluid rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
+      </div>
+    </div>
+  </div>
+<!-- Upholster-del slutar -->    
 
 <!-- Footer -->
 <footer class=" text-start bg-light">
