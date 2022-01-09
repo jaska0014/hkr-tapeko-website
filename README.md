@@ -14,7 +14,7 @@ School project to learn html css php and mysql
 
 ### (1) Open the website
 
-https://port-3000-hkr-tapeko-jskarpfors857062.preview.codeanywhere.com/hkr-tapeko-website/ 
+https://port-3000-hkr-tapeko-jskarpfors857062.preview.codeanywhere.com/
 
 ### (2) Open PhpMyadmin (database UI)
 
