@@ -40,15 +40,15 @@
         </nav>
 
         <!-- Beh;ver struktureras -->
-        <nav class="navbar d-flex pt-2" style="background-color: black">
+    <nav class="navbar d-flex pt-2" style="background-color: black">
         <div class="container fluid"> 
-          <div class="d-flex flex-row bd-highlight">   <a class="text-start text-decoration-none" <ol class="breadcrumb"> <li class="breadcrumb-item active" aria-current="page">Hem</li> </ol></a> </div>
-          <div class="d-flex flex-row-reverse bd-highlight">
-          <div class="p-2 bd-highlight text-light"> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
-          <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
+            <div class="d-flex flex-row bd-highlight">   <a class="text-start text-decoration-none" <ol class="breadcrumb"> <li class="breadcrumb-item active" aria-current="page">Hem</li> </ol></a> </div>
+                <div class="d-flex flex-row-reverse bd-highlight">
+                    <div class="p-2 bd-highlight text-light"> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+                <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
+            </div>
         </div>
-        </div>
-        </nav>
+    </nav>
         
     <div class="container-fluid bg-light">
     <div class="row">
@@ -78,10 +78,10 @@
     <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
         <h1 class="display-4 fw-bold lh-1">PTV</h1>
         <hr class="divider">
-        <p>PTV is an upholstery with speciality in 20th century Scandinavian DUX classics.</p>
-        <p>"Whether you buy a vintage armchair, or hand in a beloved piece of furniture for renovation, you can be sure that there is a great deal of craftmanship and a great love and interest in design behind our counter."</p>
+        <p>PTV är en möbeltapetserare som specialiserar sig på 1900-tals skandinaviska DUX klassiker.</p>
+        <p>"Oavsett om du köper en vintage fåtölj, eller lämnar in en älskad möbel för renovering, så kan du vara säker på att det är en stor mängd kunskap, kärlek och intresse för design bakom våran disk."</p>
         <hr class="divider">
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Find an upholsterer close to you</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Hitta en möbeltapetserare nära dig</button>
       </div>
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden">
           <img class="img-fluid rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
@@ -145,9 +145,9 @@
             </li>
           <hr class="divider">
           <ul class="list-group list-unstyled list-group-horizontal mb-1">
-          <li><i class="fab fa-twitter fa-2x"></i></li>
-          <li><i class="fab fa-instagram fa-2x"></i></li>
-          <li><i class="fab fa-facebook fa-2x"></i></li>
+          <li><i id="social" class="fab fa-twitter fa-2x"></i></li>
+          <li><i id="social" class="fab fa-instagram fa-2x"></i></li>
+          <li><i id="social" class="fab fa-facebook fa-2x"></i></li>
           </ul>
         </div>
         <!--Grid column-->

@@ -2,7 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-i{
+#social{
     padding-right: 30px;
 }
 
@@ -87,7 +87,7 @@ i{
 }
 
 .padding_right {
-    padding-right: 28px;
+    padding-right: 5px;
 }
 
 .card-text{
