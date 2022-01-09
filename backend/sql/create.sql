@@ -11,7 +11,7 @@ CREATE TABLE `products`
   `product_price` DECIMAL(18,2) NOT NULL , 
   `product_year` INT NOT NULL , 
   `product_location` VARCHAR(50) NOT NULL , 
-  `image_url` varchar(500) NOT NULL DEFAULT 'images/default/default.jpg',
+  `image_url` varchar(500) NOT NULL DEFAULT 'product-images/upload/default.png',
   `added_by_userid` INT NOT NULL DEFAULT 1,
   `date_added` DATETIME DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`product_id`)
