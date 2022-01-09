@@ -45,7 +45,7 @@
     <li class="breadcrumb-item active"><a href="products.php" class="text-decoration-none">Produkter</a></li>
     <li class="breadcrumb-item active" aria-current="page">Detaljer</li> </ol></a> </div>
     <div class="d-flex flex-row-reverse bd-highlight">
-          <div class="p-2 bd-highlight text-light "> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+          <div class="p-2 bd-highlight text-light "> <a href="admin.php?user=1" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
           <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
         </div>
         </div>

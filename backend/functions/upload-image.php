@@ -2,7 +2,7 @@
 
 $max_file_size = 1048576;
 $file_types = array('gif', 'jpg', 'jpeg', 'png');
-$upload_dir = 'images/';
+$upload_dir = 'product-images/upload/';
 $errors = array();
 
 //Check if a file was uploaded 

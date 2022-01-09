@@ -5,7 +5,7 @@ if (isset($_POST['delete']))
     // Creates a query 
     $sql = '
     DELETE FROM products
-    WHERE id = :id
+    WHERE product_id = :id
     ';
 
     // Prepares a query
@@ -21,7 +21,7 @@ if (isset($_POST['delete']))
     $stmt->bindValue(':id', $_POST['id']); // Sends query to database
     if ($stmt->execute()) 
     {
-        header('Location: ../../index.php?action=deleted');
+        header('Location: ../../admin.php?user=1&action=deleted');
         exit(); 
     }
 } 

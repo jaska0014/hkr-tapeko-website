@@ -18,11 +18,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
-  <!-- Scripts -->
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery-ui.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -47,9 +42,9 @@
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">MÖBELTAPETSERARE</a>
                       </li>
                     </ul>
-                </div>
-            </div>
-        </nav>
+              </div>
+          </div>
+      </nav>
 
         <!-- Beh;ver struktureras -->
         <nav class="navbar d-flex pt-2" style="background-color: black">
@@ -57,71 +52,76 @@
         <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
             <li class="breadcrumb-item active" aria-current="page">Skapa annons</li> </ol></a> </div>
           <div class="d-flex flex-row-reverse bd-highlight">
-          <div class="p-2 bd-highlight text-light"> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+          <div class="p-2 bd-highlight text-light"> <a href="admin.php?user=1" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
           <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
         </div>
         </div>
         </nav>
 
     <div class="container fluid my-5"> 
-    <form action="add.php" method="post" enctype="multipart/form-data">
-    <h2>Skapa ny annons</h2>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Rubrik:</label>
-            <input id="title" name="title" class="form-control" placeholder="Inkludera sökord som t.ex. märke, designer, årgång" required>
-        </div>
 
-        <div class="form-group">
-            <label for="exampleFormControlSelect1">Välj kategori:</label>
-                <select id="category" name="category" class="form-control" required>
-                    <option> Fåtölj</option>
-                    <option> Soffa</option>
-                    <option> Bord</option>
-                    <option> Annat</option>
-                </select>
-        </div>
+      <form action="add.php" method="post" enctype="multipart/form-data">
+      <h2>Skapa ny annons</h2>
 
-        <div class="form-group">
-            <label for="product_designer">Designer:</label>
-            <input name="designer" id="product_designer" class="form-control" placeholder="Vilken designer har skapat möbeln" required>
-        </div>
+          <!--(1) product_name -->
+          <div class="form-group">
+              <label for="product_name">Rubrik:</label>
+              <input id="product_name" name="product_name" class="form-control" placeholder="Inkludera sökord som t.ex. märke, designer, årgång" required>
+          </div>
 
-        <div class="form-group">
-            <label for="product_year">Årsmodell:</label>
-            <input name="year" id="product_year" class="form-control" placeholder="Vilken årsgång var den skapad" required>
-        </div>
+          <!--(2) product_type -->
+          <div class="form-group">
+              <label for="product_type">Välj kategori:</label>
+                  <select id="product_type" name="product_type" class="form-control" required>
+                      <option> Fåtölj</option>
+                      <option> Soffa</option>
+                      <option> Bord</option>
+                      <option> Annat</option>
+                  </select>
+          </div>
 
-        <div class="form-group">
-            <label for="product_price">Pris:</label>
-            <input name="price" id="product_price" class="form-control" placeholder="Endast fast pris" required>
-        </div>
+          <!--(3) product_designer -->
+          <div class="form-group">
+              <label for="product_designer">Designer:</label>
+              <input name="product_designer" id="product_designer" class="form-control" placeholder="Vilken designer har skapat möbeln" required>
+          </div>
 
-        <div class="form-group">
-            <label for="product_location">Plats:</label>
-            <input name="location" id="product_location" class="form-control" placeholder="Var finns möbeln att hämta" required>
-        </div>
+          <!--(4) product_year -->
+          <div class="form-group">
+              <label for="product_year">Årsmodell:</label>
+              <input type="number" name="product_year" id="product_year" class="form-control" placeholder="Vilken årsgång var den skapad" required>
+            </div>
 
-        <div class="form-group">
-            <label for="product_desc">Beskrivning:</label>
-            <textarea id="product_desc" name="description" class="form-control" rows="3" required></textarea>
-        </div>
+          <!--(5) product_price -->
+          <div class="form-group">
+              <label for="product_price">Pris:</label>
+              <input type="number" name="product_price" id="product_price" class="form-control" placeholder="Endast fast pris" required step="any">
+            </div>
 
-        <div class="form-group">
-            <label for="customFile">Bilder</label>
-            <input type="file" class="form-control" rows="3" id="customFile" name="image" required>
-        </div>
+          <!--(6) product_location -->
+          <div class="form-group">
+              <label for="product_location">Plats:</label>
+              <input name="product_location" id="product_location" class="form-control" placeholder="Var finns möbeln att hämta" required>
+          </div>
 
-        <button class="btn btn-outline-secondary" name="create" type="submit">Spara</button>
-        <a href="index.php" class="btn btn-primary" name="cancel" type="button">Avbryt</a> 
-    </form> 
+          <!--(7) product_desc -->
+          <div class="form-group">
+              <label for="product_desc">Beskrivning:</label>
+              <textarea id="product_desc" name="product_desc" class="form-control" rows="3" required></textarea>
+          </div>
+
+          <!--(8) image_url -->
+          <div class="form-group">
+              <label for="image">Bilder</label>
+              <input type="file" class="form-control" rows="3" id="image" name="image" required>
+          </div>
+
+          <button class="btn btn-outline-success" name="create" type="submit">Spara</button>
+          <a href="index.php" class="btn btn-primary" name="cancel" type="button">Avbryt</a> 
+      </form> 
+   
     </div>
-<br>
-
-<?php
-require_once 'backend/includes/notifications.upload.php';
-?>
-      
-
+<br>  
 
 </body>
 
@@ -196,7 +196,7 @@ require_once 'backend/includes/notifications.upload.php';
   <!-- Grid container -->
 
 </footer>
-
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </html>
 
 

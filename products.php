@@ -50,7 +50,7 @@
         <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
             <li class="breadcrumb-item active" aria-current="page">Produkter</li> </ol></a> </div>
                 <div class="d-flex flex-row-reverse bd-highlight">
-            <div class="p-2 bd-highlight text-light "> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+            <div class="p-2 bd-highlight text-light "> <a href="admin.php?user=1" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
           <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
         </div>
         </div>
@@ -72,6 +72,10 @@
                 </div>
         
 <!-- Huvudrubrik slut och dess container --> 
+
+<?php
+require_once 'backend/includes/notifications.products.php';
+?>
 
 <!-- Filtreringcontainer börjar  --> 
 <div class="container fluid px-4 my-5 text-left sticky-top"> 
@@ -125,10 +129,6 @@
             echo '</div>';
           }
           ?>
-
-
-
-
 
         </div>
     </div>

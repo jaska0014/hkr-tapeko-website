@@ -24,33 +24,30 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery-ui.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-
-        $(document).ready(function() {
-            
-            // $('.datepicker').datepicker({
-            //     format: 'dd/mm/yyyy',
-            //     buttonImage: "http://jqueryui.com/resources/demos/datepicker/images/calendar.gif",
-            // });
-            
-        });
-
-    </script>
-
 </head>
 
 
-<form action="remove.php" method="post">
+<form action="delete.php" method="post">
 
-    <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
-    <input type="hidden" name="image_existing" value="<?php echo $row['image']; ?>">
+    <input type="hidden" name="id" value="<?php echo $row['product_id']; ?>">
+    <input type="hidden" name="image_existing" value="<?php echo $row['image_url']; ?>">
 
     <div class="form-group">
         <p>Är du säker på att du vill ta bort denna annons?</p>
-        <p><?php echo ucwords($row['title'] . ' ' . $row['description']); ?></p>
+        <p><?php echo ucwords($row['product_name']); ?></p>
     </div>
 
-    <a href="index.php" class="btn btn-outline-secondary">Avbryt</a>
+    <div class="form-group">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="<?php echo $row['image_url']; ?>" class="card-img-top" alt="..."> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="admin.php?user=1" class="btn btn-outline-secondary">Avbryt</a>
 
     <button type="submit" class="btn btn-danger" name="delete">Ta bort</button>
 

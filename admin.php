@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html><?php
+  require_once 'backend/config/db.php';
+  require_once 'backend/functions/select.php';
+?>
+
 <html lang="sv">
 
 <head>
@@ -45,7 +49,7 @@
         <div class="d-flex flex-row bd-highlight">   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
             <li class="breadcrumb-item active" aria-current="page">Admin</li> </ol></a> </div>
                 <div class="d-flex flex-row-reverse bd-highlight">
-            <div class="p-2 bd-highlight text-light "> <a href="admin.php" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+            <div class="p-2 bd-highlight text-light "> <a href="admin.php?user=1" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
           <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
         </div>
         </div>
@@ -61,102 +65,58 @@
     </div>
   </div>
 
+<?php
+require_once 'backend/includes/notifications.products.php';
+?>
 
-<!-- Start för Container till korten --> 
+
+<!-- Start för Container till korten -->
 <div class="container fluid">
-<div class="container">
-<div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
+    <div class="container">
+        <div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
 
-<!-- Card 1 start --> 
-  <div class="col mb-4">
-    <div class="card border-0">
-      <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
-      <div class="card-body p-0 pt-3">
-      <h5 class="card-title">Z</h5>
+          <?php
+          if ($stmt->rowCount() > 0) 
+          {
+            while ($row = $stmt->fetch()) {
+              echo '<div class="col mb-4">';
+              echo '<div class="card product-card border-0">';
+              echo '<img src="'.$row['image_url'].'" class="card-img-top" alt="...">';
+              echo '<div class="card-body p-0 pt-3">';
+              echo '<h5 class="card-title">'.$row['product_name'].'</h5>';
+              echo '<div class="d-flex mb-3">';
+              echo '<div class="pt-2 flex-fill">';
+              echo '<p class="card-text1">'.$row['product_desc'].'</p>';
+              echo '<a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>';
+              echo '<a href="edit.php?id='.$row['product_id'].'" class="btn btn-outline-success">Redigera</a>';
+              echo '<a href="delete.php?id='.$row['product_id'].'" class="btn btn-outline-danger">Ta bort</a>';
+              echo '</div>';
+              echo '<div class="p-2 flex-fill">';
+              echo '<p class="card-text">Designer: '.$row['product_designer'].'</p>';
+              echo '<p class="card-text">Årsmodell: '.$row['product_year'].'</p>';
+              echo '<p class="card-text">Pris: '.$row['product_price'].'</p>';
+              echo '<p class="card-text">Plats: '.$row['product_location'].'</p>';
+              echo '</div>';
+              echo '</div>';
+              echo '</div>';
+              echo '</div>';
+              echo '</div>';
+            }
+          } 
+          else {
+            echo '<div class="col mb-4">';
+            echo '<div class="card border-0">';
+            echo '<div class="p-2 flex-fill">';
+            echo '<p class="card-text">Nothing in the database</p>';
+            echo '</div>';
+            echo '</div>';
+            echo '</div>';
+          }
+          ?>
 
-<div class="d-flex mb-3">
-    <div class="pt-2 flex-fill">
-        <p class="card-text1">Nyrenoverad snurrfåtölj med ny bärande väv och ny DUX original kuddsats i tobaksbrunt skinn Elmotiqie.</p>
-        <a href="edit.php" class="btn btn-outline-secondary">Redigera</a>
-        <a href="delete.php" class="btn btn-primary ml-2">Ta bort</a>
-    </div>
-        <div class="p-2 flex-fill">
-            <p class="card-text">Designer: DUX</p>
-            <p class="card-text">Årsmodell: 1969</p>
-            <p class="card-text">Pris: 32.000 KR</p>
-            <p class="card-text">Plats: Göteborg</p>
         </div>
     </div>
-    </div>
 </div>
-  </div>
-<!-- Card 1 slut -->
-<!-- Card 2 start Linnea har ändrat i just detta kort med förslag i koden-->
-  <div class="col mb-4">
-    <div class="card border-0">
-      <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
-      <div class="card-body p-0 pt-3">
-        <h5 class="card-title">PERNILLA MED FOTPALL</h5>
-            <div class="d-flex mb-3">
-                <div class="pt-2 flex-fill">
-                    <p class="card-text1">Ett renoveringsobjekt som fortfarande går att använda som den är. Kostnad för helrenovering ca. 18.000 ink. moms.</p>
-                    <a href="edit.php" class="btn btn-outline-secondary">Redigera</a>
-                    <a href="delete.php" class="btn btn-primary ml-2">Ta bort</a>
-                </div>
-                <div class="p-2 flex-fill">
-                    <p class="card-text">Designer: Bruno Mathsson</p>
-                    <p class="card-text">Årsmodell: 1960</p>
-                    <p class="card-text">Pris: 18.000 KR</p>
-                    <p class="card-text">Plats: Göteborg</p>
-                </div>
-            </div>
-      </div>
-    </div>
-  </div>
-  <!-- Card 2 slut -->
-</div>
-</div>
-</div>
-</div>
-<!--Container för korten slutar ALLA DIVAR MÅSTE VARA STÄNGDA -->
-
-
-<!-- <div class="container fluid"> 
-<div class="row row-cols-1 mt-4 row-cols-md-2 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="assets/images/cover2.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Pernilla med fotpall</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="edit.php" class="btn btn-outline-secondary">Redigera</a>
-        <a href="delete.php" class="btn btn-primary ml-2">Ta bort</a>
-      </div>
-
-      <div class="p-2 flex-fill">
-            <p class="card-text">Designer: DUX</p>
-            <p class="card-text">Årsmodell: 1969</p>
-            <p class="card-text">Pris: 32.000 KR</p>
-            <p class="card-text">Plats: Göteborg</p>
-        </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card">
-      <img src="assets/images/cover.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Svenson Svenson soffa</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="product-detail.php" class="btn btn-outline-secondary">Redigera</a>
-        <a href="product-detail.php" class="btn btn-primary ml-2">Ta bort</a>
-      </div>
-    </div>
-  </div>
-</div>
-</div> -->
-      
-
 
   <!-- Footer -->
 <footer class=" text-start bg-light">
