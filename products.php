@@ -64,7 +64,7 @@
 
                 <!-- ej responsiv placering -->
                 <div class="col d-flex justify-content-end pt-2 pb-3">
-                 <a href="add.php" class="btn btn-outline-secondary btn-lg">Ladda upp annons</a>
+                 <a href="add.php" class="btn btn-outline-secondary">Skapa ny annons</a>
                 </div>
                 <!-- ej responsiv placering -->
                  <p class="lead mb-2">Reduce your environmental footprint by reusing pre-loved design furniture.</p>
@@ -190,9 +190,9 @@ require_once 'backend/includes/notifications.products.php';
               <a href="#!" class="text-dark text-decoration-none">Följ oss på sociala medier</a>
             </li>
           <hr class="divider">
-          <i class="fab fa-twitter fa-2x"></i>
-          <i class="fab fa-instagram fa-2x"></i>
-          <i class="fab fa-facebook fa-2x"></i>
+          <i id="social" class="fab fa-twitter fa-2x"></i>
+          <i id="social" class="fab fa-instagram fa-2x"></i>
+          <i id="social" class="fab fa-facebook fa-2x"></i>
         
           </ul>
         </div>

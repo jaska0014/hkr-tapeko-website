@@ -179,10 +179,9 @@
               <a href="#!" class="text-dark text-decoration-none">Följ oss på sociala medier</a>
             </li>
           <hr class="divider">
-          <ul class="list-group list-unstyled list-group-horizontal mb-1">
-          <li><i class="fab fa-twitter fa-2x"></i></li>
-          <li><i class="fab fa-instagram fa-2x"></i></li>
-          <li><i class="fab fa-facebook fa-2x"></i></li>
+          <i id="social" class="fab fa-twitter fa-2x"></i>
+          <i id="social" class="fab fa-instagram fa-2x"></i>
+          <i id="social" class="fab fa-facebook fa-2x"></i>
           </ul>
         </div>
         <!--Grid column-->

@@ -57,19 +57,10 @@
       <h5 class="p-1">FÅTÖLJ</h5>
         <h1 class="display-4 fw-bold lh-1">FÅTÖLJ,<br> 2 ST, INGRID</h1>
         <p class="lead">Söker tapetserare till dessa två identiska fåtöljer</p>
-        <!-- <hr class="divider"> -->
-        <!-- <p class="lead">Designer: Bruno mathsson</p>
-        <hr class="divider">
-        <p class="lead">Årsmodell: 1960</p>
-        <hr class="divider">
-        <p class="lead">Budget: 10.000 kr</p>
-        <hr class="divider">
-        <p class="lead">Upholsterer: PTV, Göteborg</p>
-     -->    <!-- <hr class="divider"> -->
         <button type="button" class="btn btn-outline-secondary btn-lg px-4">KÖP NU</button>
       </div>
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
-          <img class="rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
+          <img class="rounded-lg-3" src="assets/images/double_armchair_front.png" alt="armchair">
       </div>
     </div>
   </div>
@@ -78,17 +69,27 @@
     <div class="row">   
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden mx-auto">
           <img class="rounded-lg-3 pb-3" src="assets/images/double_armchair.png" alt="double_armchair">
-          <img class="rounded-lg-3 padding_right" src="assets/images/double_armchair_behind.png" alt="double_armchair_behind">
-          <img class="rounded-lg-3" src="assets/images/branding_armchair.png" alt="branding_armchair"> 
+          <div class="container p-0">
+    <div class="row justify-content-between">
+        <div class="col-6">
+         <img class="rounded-lg-3" src="assets/images/double_armchair_behind.png" alt="double_armchair_behind">
+        </div>
+        <div class="col-6">
+            <img src="assets/images/branding_armchair.png" alt="branding_armchair">
+        </div>
+    </div>
+</div>
+
       </div>
+      
        <div class="col-lg-6 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
        <h3 class="fw-bold lh-1 pb-3"><strong>FÅTÖLJ, 2 ST INGRID</strong></h4>
         <p class="lead pb-5">Nyrenoverad snurrfåtölj med ny bärande väv och ny DUX</p>
         <p class="pb-3">Designer: Bruno mathsson</p>
         <p class="pb-3">Årsmodell: 1960</p>
         <p class="pb-3">SKICK: NYRENOVERAD</p>
-        <p class="pb-4">Plats: Götebor>
-     -->    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact PTV</button>
+        <p class="pb-4">Plats: Göteborg </p>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Kontakta Tapetseraren</button>
        </div>
     </div> 
   </div> 
@@ -147,9 +148,9 @@
               <a href="#!" class="text-dark text-decoration-none">Följ oss på sociala medier</a>
             </li>
           <hr class="divider">
-          <i class="fab fa-twitter fa-2x"></i>
-          <i class="fab fa-instagram fa-2x"></i>
-          <i class="fab fa-facebook fa-2x"></i>
+          <i id="social" class="fab fa-twitter fa-2x"></i>
+          <i id="social" class="fab fa-instagram fa-2x"></i>
+          <i id="social" class="fab fa-facebook fa-2x"></i>
         
           </ul>
         </div>
@@ -164,7 +165,7 @@
   <!-- Grid container -->
 
 </footer>
-<!-- F
+<!-- Footer -->
 <script src="assets/js/bootstrap.bundle.min.js"></script>ooter -->
 </body>
 
