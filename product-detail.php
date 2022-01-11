@@ -28,7 +28,7 @@
                         <a class="nav-link" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="product-detail.php">VÅRA TJÄNSTER</a>
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">VÅRA TJÄNSTER</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">MÖBELTAPETSERARE</a>
@@ -42,8 +42,8 @@
         <nav class="navbar d-flex pt-2" style="background-color: black">
         <div class="container fluid"> 
           <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
-    <li class="breadcrumb-item active"><a href="products.php" class="text-decoration-none">Produkter</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Detaljer</li> </ol></a> </div>
+    <li class="breadcrumb-item active"><a href="products.php" class="text-decoration-none">Begagnade möbler</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Fåtölj, 2 st Ingrid</li> </ol></a> </div>
     <div class="d-flex flex-row-reverse bd-highlight">
           <div class="p-2 bd-highlight text-light "> <a href="admin.php?user=1" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
           <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
@@ -53,11 +53,9 @@
     
    <div class="container-fluid bg-light">
     <div class="row">
-    <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
+    <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
       <h5 class="p-1">FÅTÖLJ</h5>
-        <h1 class="display-4 fw-bold lh-1">FÅTÖLJ,<br> 2 ST, INGRID</h1>
-        <p class="lead">Söker tapetserare till dessa två identiska fåtöljer</p>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">KÖP NU</button>
+        <h1 class="display-4 fw-bold">FÅTÖLJ, 2 ST INGRID</h1>
       </div>
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
           <img class="rounded-lg-3" src="assets/images/double_armchair_front.png" alt="armchair">
@@ -78,18 +76,17 @@
             <img src="assets/images/branding_armchair.png" alt="branding_armchair">
         </div>
     </div>
-</div>
-
+            </div>
       </div>
       
        <div class="col-lg-6 p-3 p-lg-5 pt-lg-3 mx-auto bg- text-start">
        <h3 class="fw-bold lh-1 pb-3"><strong>FÅTÖLJ, 2 ST INGRID</strong></h4>
-        <p class="lead pb-5">Nyrenoverad snurrfåtölj med ny bärande väv och ny DUX</p>
+        <p class="lead pb-5">Nyrenoverad snurrfåtölj med ny bärande väv och ny DUX original kuddsats i tobaksbrunt skinn Elmotique.</p>
         <p class="pb-3">Designer: Bruno mathsson</p>
         <p class="pb-3">Årsmodell: 1960</p>
-        <p class="pb-3">SKICK: NYRENOVERAD</p>
+        <p class="pb-3">Pris: 22000.00</p>
         <p class="pb-4">Plats: Göteborg </p>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Kontakta Tapetseraren</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Kontakta Säljaren</button>
        </div>
     </div> 
   </div> 

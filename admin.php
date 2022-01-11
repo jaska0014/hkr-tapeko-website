@@ -33,7 +33,7 @@
                         <a class="nav-link active" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="product-detail.php">VÅRA TJÄNSTER</a>
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">VÅRA TJÄNSTER</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">MÖBELTAPETSERARE</a>
@@ -87,8 +87,7 @@ require_once 'backend/includes/notifications.products.php';
               echo '<div class="d-flex mb-3">';
               echo '<div class="pt-2 flex-fill">';
               echo '<p class="card-text1">'.$row['product_desc'].'</p>';
-              echo '<a href="product-detail.php" class="btn btn-outline-secondary">Read more</a>';
-              echo '<a href="edit.php?id='.$row['product_id'].'" class="btn btn-outline-success">Redigera</a>';
+              echo '<a href="edit.php?id='.$row['product_id'].'" class="btn btn-outline-secondary mr-2">Redigera</a>';
               echo '<a href="delete.php?id='.$row['product_id'].'" class="btn btn-outline-danger">Ta bort</a>';
               echo '</div>';
               echo '<div class="p-2 flex-fill">';

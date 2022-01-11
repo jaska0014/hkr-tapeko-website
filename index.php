@@ -34,7 +34,7 @@
                         <a class="nav-link" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="product-detail.php">VÅRA TJÄNSTER</a>
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">VÅRA TJÄNSTER</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">MÖBELTAPETSERARE</a>
@@ -60,12 +60,11 @@
       <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto bg-light text-start">
         <h1 class="display-4 fw-bold pt-3 lh-1">REUSE<br> REDUCE<br> TAPEKO</h1>
         <p class="lead">Var en del av förändringen från enormt slöseri, till bättre användning. Vi hjälper dig förminska ditt miljöavtryck genom att återanvända begagnade designmöbler. Vi kallar det Tapeko</p>
-        <hr class="divider">
         <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
           <a href="products.php" class="btn btn-outline-secondary btn-lg px-4">Börja shoppa</a>
         </div>
       </div>
-      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
+      <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden">
           <img class="rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
       </div>
     </div>
@@ -77,23 +76,52 @@
       <p class="vision mb-4">Ingen designmöbel skall någonsin hamna på soptippen.</p>
     </div>
   </div>
- <!-- Upholster-del börjar -->
+
+ <!-- Reuse börjar -->
 <div class="container-fluid">
+    <div class="row">
+    <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden">
+          <img class="img-fluid rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
+      </div>
+    <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
+        <h1 class="display-4 fw-bold lh-1">REUSE</h1>
+        <p>PTV är en möbeltapetserare som specialiserar sig på 1900-tals skandinaviska DUX klassiker.</p>
+        <p>”Bekväma sittplatser är en konst, men det borde det inte vara. Att göra möbler att sitta på ska tillverkas med sådan konst att sitta i dem inte behöver vara en konst.” <br>- Bruno Mathsson</p>
+      </div>
+    </div>
+  </div>
+<!-- Reuse slutar -->  
+
+ <!-- PTV börjar -->
+ <div class="container-fluid my-5">
     <div class="row">
     <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
         <h1 class="display-4 fw-bold lh-1">PTV</h1>
-        <hr class="divider">
         <p>PTV är en möbeltapetserare som specialiserar sig på 1900-tals skandinaviska DUX klassiker.</p>
         <p>"Oavsett om du köper en vintage fåtölj, eller lämnar in en älskad möbel för renovering, så kan du vara säker på att det är en stor mängd kunskap, kärlek och intresse för design bakom våran disk."</p>
-        <hr class="divider">
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Hitta en möbeltapetserare nära dig</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Hitta en möbeltapetserare</button>
       </div>
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden">
           <img class="img-fluid rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
       </div>
     </div>
   </div>
-<!-- Upholster-del slutar -->    
+<!-- PTV slutar --> 
+
+ <!-- Reduce börjar -->
+ <div class="container-fluid my-5">
+    <div class="row">
+    <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden">
+          <img class="img-fluid rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
+      </div>
+    <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
+        <h1 class="display-4 fw-bold lh-1">REDUCE</h1>
+        <p>PTV är en möbeltapetserare som specialiserar sig på 1900-tals skandinaviska DUX klassiker.</p>
+        <p>"Oavsett om du köper en vintage fåtölj, eller lämnar in en älskad möbel för renovering, så kan du vara säker på att det är en stor mängd kunskap, kärlek och intresse för design bakom våran disk."</p>
+      </div>
+    </div>
+  </div>
+<!-- Reduce slutar --> 
 
 <!-- Footer -->
 <footer class=" text-start bg-light">
