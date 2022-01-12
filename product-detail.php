@@ -25,7 +25,7 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
+                        <a class="nav-link" aria-current="page" href="products.php">ANNONSER</a>
                       </li>
                       <li class="nav-item">
                       <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">VÅRA TJÄNSTER</a>
@@ -38,30 +38,40 @@
             </div>
         </nav>	
 
-        <!-- Beh;ver struktureras -->
+        <!-- Breadcrumbs -->
         <nav class="navbar d-flex pt-2" style="background-color: black">
-        <div class="container fluid"> 
-          <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
-    <li class="breadcrumb-item active"><a href="products.php" class="text-decoration-none">Begagnade möbler</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Fåtölj, 2 st Ingrid</li> </ol></a> </div>
-    <div class="d-flex flex-row-reverse bd-highlight">
-          <div class="p-2 bd-highlight text-light "> <a href="admin.php?user=1" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
-          <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
+            <div class="container fluid"> 
+                <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
+                    <li class="breadcrumb-item active"><a href="products.php" class="text-decoration-none">Annonser</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Detaljer</li> </ol></a> </div>
+                    <div class="d-flex flex-row-reverse bd-highlight">
+                <div class="p-2 bd-highlight text-light "> <a href="admin.php?user=1" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
+            <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
         </div>
         </div>
         </nav>
-    
+    <!-- Breadcrumbs -->
+
+    <div class="pt-3 my-5 text-center">
+        <h3>DENNA SIDA ÄR UNDER UPPBYGGNAD</h3>
+            <div class="col-lg-6 mx-auto">
+            <p class="vision mb-4">Vi jobbar fortfarande på vår hemsida, nedan kan du se ett exempel på hur dina annonser kommer att visas i detaljvy.</p>
+           <h3> <i class="fas fa-paint-roller"></i>  <i class="fas fa-wrench"></i></h3>
+        </div>
+    </div>
+
    <div class="container-fluid bg-light">
     <div class="row">
     <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
       <h5 class="p-1">FÅTÖLJ</h5>
-        <h1 class="display-4 fw-bold">FÅTÖLJ, 2 ST INGRID</h1>
+        <h1 class="display-4 fw-bold">FÅTÖLJ,<br> 2 ST INGRID</h1>
       </div>
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden bg-light">
           <img class="rounded-lg-3" src="assets/images/double_armchair_front.png" alt="armchair">
       </div>
     </div>
   </div>
+
 
   <div class="container my-5">
     <div class="row">   
@@ -163,6 +173,6 @@
 
 </footer>
 <!-- Footer -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>ooter -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 

@@ -31,7 +31,7 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
+                        <a class="nav-link" aria-current="page" href="products.php">ANNONSER</a>
                       </li>
                       <li class="nav-item">
                       <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">VÅRA TJÄNSTER</a>
@@ -44,7 +44,7 @@
             </div>
         </nav>
 
-        <!-- Beh;ver struktureras -->
+        <!-- Breadcrumbs -->
         <nav class="navbar d-flex pt-2" style="background-color: black">
         <div class="container fluid"> 
           <div class="d-flex flex-row bd-highlight">   <a class="text-start text-decoration-none" <ol class="breadcrumb"> <li class="breadcrumb-item active" aria-current="page">Hem</li> </ol></a> </div>
@@ -54,6 +54,7 @@
         </div>
         </div>
         </nav>
+        <!-- Breadcrumbs -->
         
     <div class="container-fluid bg-light">
     <div class="row">
@@ -65,7 +66,7 @@
         </div>
       </div>
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden">
-          <img class="rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
+          <img class="rounded-lg-3" src="assets/images/stol1.jpg" alt="armchair">
       </div>
     </div>
   </div> 
@@ -81,7 +82,7 @@
 <div class="container-fluid">
     <div class="row">
     <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden">
-          <img class="img-fluid rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
+          <img class="img-fluid rounded-lg-3" src="assets/images/green.jpg" alt="armchair">
       </div>
     <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
         <h1 class="display-4 fw-bold lh-1">REUSE</h1>
@@ -102,7 +103,7 @@
         <button type="button" class="btn btn-outline-secondary btn-lg px-4">Hitta en möbeltapetserare</button>
       </div>
       <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden">
-          <img class="img-fluid rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
+          <img class="img-fluid rounded-lg-3" src="assets/images/soffbord.jpg" alt="armchair">
       </div>
     </div>
   </div>
@@ -112,7 +113,7 @@
  <div class="container-fluid my-5">
     <div class="row">
     <div class="col-lg-6 offset-lg-1 p-0 overflow-hidden">
-          <img class="img-fluid rounded-lg-3" src="assets/images/cover2.jpeg" alt="armchair">
+          <img class="img-fluid rounded-lg-3" src="assets/images/brickwall.jpg" alt="armchair">
       </div>
     <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
         <h1 class="display-4 fw-bold lh-1">REDUCE</h1>

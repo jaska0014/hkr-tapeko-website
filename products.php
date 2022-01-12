@@ -31,7 +31,7 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
+                        <a class="nav-link active" aria-current="page" href="products.php">ANNONSER</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">VÅRA TJÄNSTER</a>
@@ -48,7 +48,7 @@
     <nav class="navbar d-flex pt-2" style="background-color: black">
     <div class="container fluid"> 
         <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Begagnade möbler</li> </ol></a> </div>
+            <li class="breadcrumb-item active" aria-current="page">Annonser</li> </ol></a> </div>
                 <div class="d-flex flex-row-reverse bd-highlight">
             <div class="p-2 bd-highlight text-light "> <a href="admin.php?user=1" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
           <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
@@ -61,7 +61,6 @@
             <div class="container fluid px-4 my-5 text-left">
                 <div class="row">
                 <h1 class="display-4 fw-bold">Begagnade möbler</h1>
-
                 <!-- ej responsiv placering -->
                 <div class="col d-flex justify-content-end pt-2 pb-3">
                  <a href="add.php" class="btn btn-outline-secondary btn-lg">Skapa ny annons</a>
@@ -134,7 +133,7 @@ require_once 'backend/includes/notifications.products.php';
     </div>
 </div>
 
-<!--Container för korten slutar ALLA DIVAR MÅSTE VARA STÄNGDA -->
+<!--Container för korten slutar -->
 
   <!-- Footer -->
 <footer class=" text-start bg-light">

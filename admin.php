@@ -30,7 +30,7 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
+                        <a class="nav-link active" aria-current="page" href="products.php">ANNONSER</a>
                       </li>
                       <li class="nav-item">
                       <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">VÅRA TJÄNSTER</a>
@@ -43,7 +43,7 @@
             </div>
         </nav>	
 
-        <!-- Beh;ver struktureras -->
+        <!-- Breadcrumbs -->
     <nav class="navbar d-flex pt-2" style="background-color: black">
     <div class="container fluid"> 
         <div class="d-flex flex-row bd-highlight">   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
@@ -54,6 +54,7 @@
         </div>
         </div>
     </nav>
+    <!-- Breadcrumbs -->
 
     <div class="px-4 pt-5 my-5 text-center border-bottom">
     <h1 class="display-4 fw-bold">Välkommen Andrea!</h1>

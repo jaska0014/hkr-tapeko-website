@@ -49,7 +49,7 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="products.php">BEGAGNADE MÖBLER</a>
+                        <a class="nav-link" aria-current="page" href="products.php">ANNONSER</a>
                       </li>
                       <li class="nav-item">
                       <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">VÅRA TJÄNSTER</a>
@@ -66,7 +66,7 @@
         <nav class="navbar d-flex pt-2" style="background-color: black">
         <div class="container fluid"> 
         <div class="d-flex flex-row bd-highlight"   <a class="text-start" <ol class="breadcrumb"> <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Hem</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Skapa annons</li> </ol></a> </div>
+            <li class="breadcrumb-item active" aria-current="page">Redigera annons</li> </ol></a> </div>
           <div class="d-flex flex-row-reverse bd-highlight">
           <div class="p-2 bd-highlight text-light"> <a href="admin.php?user=1" class="text-decoration-none"> Admin <i class="fas fa-user-lock"></i></a></div>
           <div class="p-2 bd-highlight text-light"><a href="products.php" class="text-decoration-none"> Shop <i class="fas fa-shopping-bag"></i></a></div>
@@ -77,7 +77,7 @@
     <div class="container fluid my-5"> 
 
       <form action="edit.php" method="post" enctype="multipart/form-data">
-      <h2>Skapa ny annons</h2>
+      <h2>Redigera annons</h2>
 
           <!--(0) product_id -->
           <input type="hidden" name="product_id" value="<?php echo $row['product_id']; ?>"> 
