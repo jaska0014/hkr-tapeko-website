@@ -117,12 +117,11 @@
       </div>
     <div class="col-lg-3 p-3 p-lg-5 pt-lg-3 mx-auto text-start">
         <h1 class="display-4 fw-bold lh-1">REDUCE</h1>
-        <p>PTV är en möbeltapetserare som specialiserar sig på 1900-tals skandinaviska DUX klassiker.</p>
-        <p>"Oavsett om du köper en vintage fåtölj, eller lämnar in en älskad möbel för renovering, så kan du vara säker på att det är en stor mängd kunskap, kärlek och intresse för design bakom våran disk."</p>
-      </div>
+        <p>Hållbarhet är en av våra absolut främsta prioriteringar och vi har fått utmärkelser för att vi har sett till att varje steg av våran arbetsprocess, från att du lämnar av en möbel till att du har fått tillbaka den, har varit gjord på ett miljövänligt sett.</p>
+        </div>
     </div>
   </div>
-<!-- Reduce slutar --> 
+<!-- Reduce slutar -->  
 
 <!-- Footer -->
 <footer class=" text-start bg-light">
@@ -181,6 +180,7 @@
           <i id="social" class="fab fa-twitter fa-2x"></i>
           <i id="social" class="fab fa-instagram fa-2x"></i>
           <i id="social" class="fab fa-facebook fa-2x"></i>
+        
           </ul>
         </div>
         <!--Grid column-->
@@ -197,5 +197,3 @@
 <!-- Footer -->
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
-
-
